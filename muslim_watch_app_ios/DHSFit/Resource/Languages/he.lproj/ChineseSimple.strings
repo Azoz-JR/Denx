@@ -1,0 +1,779 @@
+//
+//  ChineseSimple.strings
+//  DHSFit
+//  简体中文
+//  Created by DHS on 2022/6/5.
+//
+
+
+"str_tab_home" = "בית";
+"str_tab_sport" = "ספורט";
+"str_tab_device" = "מכשיר";
+"str_tab_mine" = "שלי";
+"str_cal" = "קלוריות";
+"str_distance" = "קילומטראז";
+"str_step" = "צעדים";
+"str_target" = "יעד";
+"str_sleep_title" = "שינה";
+"str_bp_title" = "לחץ דם";
+"str_breathe_title" = "לנשום";
+"str_bt_title" = "טמפרטורת גוף";
+"str_hr_title" = "דופק";
+"str_bo_title" = "חמצן בדם";
+
+"str_syncing" = "מסנכרן...";
+"str_syncing_fail" = "הסנכרון נכשל";
+"str_syncing_success" = "הסנכרון הצליח";
+
+"str_personal_data" = "מידע אישי";
+"str_setting" = "הגדרה";
+"str_suggest" = "שאלות והצעות";
+"str_app_version_check" = "בדיקת אפליקציה לעדכונים";
+"str_help" = "עזרה";
+"str_about" = "אודות";
+"str_qrcode" = "קוד QR";
+"str_qrcode_manager" = "כרטיס ביקור";
+"str_qrcode_length_out_limit" = "אורך קוד ה-QR חורג מהמגבלה";
+"str_please_input_name" = "אנא הזן שם";
+"str_please_input_qrcode" = "אנא בחר קוד QR";
+"str_sport_setting" = "הגדרת ספורט";
+"str_time_goal" = "יעד זמן";
+"str_calorie_goal" = "יעד קלוריות";
+"str_distance_goal" = "מרחק למטרה";
+"str_breath_training" = "אימון נשימה";
+"str_apple_health" = "בריאות אפל";
+"str_first_time" = "פעם ראשונה";
+"str_second_time" = "פעם שנייה";
+"str_third_time" = "פעם שלישית";
+"str_fourth_time" = "פעם רביעית";
+"str_fifth_time" = "פעם חמישית";
+"str_breath_tips" = "הפעל את מתג אימון הנשימה ובצע אימון נשימה 5 פעמים ביום.";
+"str_total_training_time" = "זמן אימון כולל";
+"str_average_training_time" = "זמן אימון ממוצע";
+
+"str_dial_market" = "שוק חיוג";
+"str_more" = "עוד";
+"str_msg_push" = "דחיפה של הודעה";
+"str_take_photo" = "צלם תמונה";
+"str_search_device" = "התקן חיפוש";
+"str_long_sit" = "תזכורת בישיבה";
+"str_drink" = "תזכורת לשתות מים";
+"str_warn_model" = "דגם אזהרה";
+"str_alarm" = "תזכורת אזעקה";
+"str_screen_light" = "הרם את פרק היד כדי להאיר את המסך";
+"str_screen_long" = "זמן בהיר מסך";
+"str_hr_watcher" = "מד דופק";
+"str_no_disturb" = "מצב אל תפריע";
+"str_ota" = "שדרוג קושחה";
+"str_weather" = "סנכרון מזג אוויר";
+"str_address_book" = "פנקס כתובות";
+"str_take_photo_ok" = "צלם תמונה בסדר";
+
+
+"str_total_distance" = "מרחק כולל";
+"str_tab_sport_running_indoor" = "ריצה פנימית";
+"str_tab_sport_running_outdoor" = "ריצה בחוץ";
+"str_tab_sport_running" = "ריצה";
+"str_tab_sport_walking" = "הליכת ספורט";
+"str_tab_sport_biking" = "רכיבה על אופניים";
+"str_tab_sport_climing" = "טיפוס הרים";
+"str_tab_sport_spinning" = "סיבוב";
+"str_tab_sport_tennis" = "טניס";
+"str_tab_sport_weight_lifting" = "הרמת משקולות";
+"str_tab_sport_yoga" = "יוגה";
+"str_tab_sport_badminton" = "בדמינטון";
+"str_tab_sport_basketball" = "כדורסל";
+"str_tab_sport_jumprope" = "חבל קפיצה";
+"str_tab_sport_free_exercise" = "תרגיל חינם";
+"str_tab_sport_football" = "כדורגל";
+"str_tab_sport_tabletennis" = "טניס שולחן";
+"str_run_indoor_total_distance" = "מרחק ריצה פנימי הכולל";
+"str_run_outdoor_total_distance" = "המרחק הכולל ריצה בחוץ";
+"str_walk_total_distance" = "מרחק הליכה כולל";
+"str_bike_total_distance" = "מרחק כולל של אופניים";
+"str_cli_total_distance" = "המרחק הכולל טיפס";
+"str_indoor" = "מקורה";
+"str_outdoor" = "בחוץ";
+"str_total_time" = "זמן כולל";
+
+"str_tab_day" = "יום";
+"str_tab_week" = "שבוע";
+"str_tab_month" = "חודש";
+"str_tab_year" = "שנה";
+
+"str_unit_step" = "שלב";
+"str_total_step" = "סה\"כ צעדים";
+"str_total_cal" = "סך הכל Cal";
+"str_cost_cal" = "עלות";
+"str_step_title" = "ספירת צעדים";
+"str_day_avg_step" = "צעדים ממוצעים ליום";
+"str_day_avg_distance" = "קילומטראז' ממוצע יומי";
+"str_day_avg_cal" = "צריכה יומית";
+
+"str_total_sleep_time" = "זמן שינה";
+"str_sleep_time" = "זמן שינה";
+"str_wake_time" = "זמן ערות";
+"str_deep_time" = "זמן שינה עמוקה";
+"str_light_time" = "זמן שינה קל";
+"str_wake_times" = "זמני ערות";
+"str_scien_tips" = "ערכי התייחסות מדעיים";
+"str_avg_sleep_time" = "זמן שינה ממוצע";
+"str_avg_deep_sleep_percent" = "אחוז שינה עמוקה ממוצע";
+"str_avg_light_sleep_percent" = "אחוז שינה קלה ממוצע";
+"str_avg_wake_sleep_percent" = "אחוז ערות ממוצע";
+"str_avg_flow_sleep_time" = "זמן ממוצע להירדם";
+"str_avg_flow_wake_time" = "זמן ערות ממוצע";
+"str_day_avg_sleep_time" = "שינה ממוצעת יומית";
+"str_day_avg_deep_time" = "שינה עמוקה ממוצעת ליום";
+"str_day_avg_light_time" = "שינה קלה ממוצעת יומית";
+"str_day_avg_wake_time" = "זמן ערות ממוצע ליום";
+"str_sleep_description" = "המרכיבים של שינה מדעית ובריאה יכולים לשפר ביעילות את איכות השינה ולעבוד עם יותר אנרגיה.";
+
+"str_current_hr" = "דופק נוכחי";
+"str_avg_hr" = "דופק ממוצע";
+"str_max_hr" = "דופק מרבי";
+"str_min_hr" = "דופק מינימלי";
+"str_range_hr" = "טווח דופק";
+"str_fast_hr" = "דופק מהיר";
+"str_slow_hr" = "דופק איטי";
+"str_day_avg_hr" = "דופק ממוצע יומי";
+"str_hr_description" = "תקני הנתונים שלעיל מיועדים למבוגרים רגילים במצב שקט. קצב הלב של ספורטאים או קשישים הוא איטי יחסית, בדרך כלל בסביבות 50 פעימות לדקה.\n\nנתוני הדופק הם רק להתייחסות לבריאות ערכים, נא לא להשתמש למטרות רפואיות.";
+
+"str_current_bp" = "לחץ דם נוכחי";
+"str_avg_bp" = "לחץ דם ממוצע";
+"str_max_bp_sp" = "לחץ דם סיסטולי מרבי";
+"str_min_bp_sp" = "לחץ דם סיסטולי מינימלי";
+"str_max_bp_dp" = "לחץ דם דיאסטולי מרבי";
+"str_min_bp_dp" = "לחץ דם דיאסטולי מינימלי";
+"str_avg_bp_sp" = "לחץ דם סיסטולי ממוצע";
+"str_avg_bp_dp" = "לחץ דם דיאסטולי ממוצע";
+"str_perface_bp_sp" = "לחץ דם סיסטולי אידיאלי";
+"str_perface_bp_dp" = "לחץ דם דיאסטולי אידיאלי";
+"str_normal_bp_sp" = "לחץ דם סיסטולי רגיל";
+"str_normal_bp_dp" = "לחץ דם דיאסטולי רגיל";
+"str_day_avg_bp" = "לחץ דם ממוצע יומי";
+"str_bp_description" = "נתוני לחץ הדם משמשים רק כהתייחסות לערכים בריאותיים, נא לא להשתמש בהם למטרות רפואיות.";
+
+"str_current_bo" = "חמצן נוכחי בדם";
+"str_avg_bo" = "חמצן ממוצע בדם";
+"str_max_bo" = "מקסימום חמצן בדם";
+"str_min_bo" = "מינימום חמצן בדם";
+"str_normal_bo_range" = "טווח חמצן רגיל בדם";
+"str_light_bo" = "היפוקסיה קלה";
+"str_middle_bo" = "היפוקסיה מתונה";
+"str_weight_bo" = "היפוקסיה חמורה";
+"str_day_avg_bo" = "חמצן ממוצע בדם";
+"str_bo_description" = "נתוני חמצן בדם משמשים רק כהתייחסות לערכים בריאותיים, נא לא להשתמש בהם למטרות רפואיות.";
+
+"str_current_bt" = "טמפרטורת גוף נוכחית";
+"str_avg_bt" = "טמפרטורת גוף ממוצעת";
+"str_max_bt" = "טמפרטורת גוף מקסימלית";
+"str_min_bt" = "טמפרטורת גוף מינימלית";
+"str_normal_bt_range" = "טווח טמפרטורת גוף רגיל";
+"str_slow_bt" = "חום נמוך";
+"str_middle_bt" = "Bt אמצעי";
+"str_height_bt" = "חום גבוה";
+"str_day_avg_bt" = "טמפרטורת גוף ממוצעת יומית";
+"str_bt_description" = "נתוני טמפרטורת הגוף משמשים רק כהתייחסות לערכים בריאותיים, נא לא להשתמש בהם למטרות רפואיות.";
+
+"str_sport_record" = "שיא ספורט";
+"str_cancel" = "לְבַטֵל";
+"str_sure" = "בטוח";
+"str_disconnect_tips" = "המכשיר נקשר, האם ברצונך לנתק את המכשיר?";
+"str_unbind" = "ביטול קישור ההתקן";
+"str_bind" = "איגד מכשיר";
+"str_device_scan" = "סריקת מכשיר";
+"str_device_connecting" = "מתחבר";
+"str_device_unbind_tips" = "האם אתה בטוח שאתה מבטל את הקישור של המכשיר?";
+"str_connecting" = "מתחבר";
+"str_recover" = "שחזר את הגדרות היצרן";
+"str_cancel_search_device" = "האם אתה רוצה להפסיק לחפש טלפונים ניידים?";
+"str_bind_success" = "הקישור הצליח";
+"str_bind_fail" = "הכריכה נכשלה, אנא נסה שוב";
+"str_device_bound_to_other_tips" = "עבור המכשיר המחובר, נא שחזר את הגדרות היצרן או בטל את הכריכה ולאחר מכן התחבר מחדש.";
+"str_device_others_binded_tips" = "המכשיר נקשר על ידי משתמשים אחרים, אנא בטל תחילה את הקישור או אפס את המכשיר להגדרות היצרן!";
+"str_device_restore_tips" = "המכשיר שוחזר להגדרות היצרן, נא לאגד מחדש את המכשיר!";
+"str_device_binding" = "כריכה";
+
+"str_replace" = "החלף";
+"str_clear" = "נקה";
+"str_save" = "שמור";
+"str_save_success" = "נשמר בהצלחה";
+"str_save_fail" = "השמירה נכשלה";
+
+"str_alarm_add" = "הוסף אזעקה";
+"str_repeat" = "חזור";
+"str_no_repeat" = "אין חזרה";
+"str_every_day" = "כל יום";
+"str_tag" = "תג";
+"str_please_input_tags" = "אנא הזן תגים";
+"str_hr_rate" = "שיעור בדיקה";
+"str_start_time" = "שעת התחלה";
+"str_end_time" = "שעת סיום";
+"str_warn_rate" = "שיעור אזהרה";
+"str_device_recovery_tips" = "פעולה זו תבטל את קישור ההתקן, האם אתה בטוח ששחזר את הגדרות היצרן?";
+"str_vibration" = "רטט";
+"str_bright" = "מסך בהיר";
+
+"str_monday" = "יום שני";
+"str_tuesday" = "יום שלישי";
+"str_wednesday" = "יום רביעי";
+"str_thursday" = "יום חמישי";
+"str_friday" = "שישי";
+"str_saturday" = "שבת";
+"str_sunday" = "יום ראשון";
+
+"str_recommend" = "המליץ";
+"str_dialo_hot" = "החם ביותר";
+"str_dial_new" = "הכי חדש";
+"str_dial_mine" = "החוגה שלי";
+"str_install" = "התקן";
+"str_installed" = "מותקן";
+"str_dial_free" = "חינם";
+"str_installing" = "מתקין";
+"str_dial_un_install" = "הסר התקנה";
+"str_dial_custom" = "חיוג מותאם אישית";
+"str_dial_custom_tips" = "צור חוגה משלך בהתאם להעדפותיך האישיות.";
+"str_dial_detail" = "פרטי חיוג";
+"str_notes" = "הערות:";
+"str_notes_dial" = "במהלך תהליך התקנת החוגה, נא לא לצאת מדף זה, נא לא להפעיל את הטלפון או השעון שלך, ודא שההתקנה הושלמה!";
+"str_notes_ota" = "במהלך תהליך עדכון הקושחה, נא לא לצאת מדף זה, נא לא להפעיל את הטלפון או השעון שלך, ודא שהעדכון הושלם!";
+
+"str_sport_detail" = "פרטי ספורט";
+"str_pace" = "קצב";
+"str_avg_pace" = "קצב ממוצע";
+"str_max_pace" = "קצב מקסימלי";
+"str_min_pace" = "קצב מינימלי";
+"str_step_pace" = "קצב צעדים";
+"str_avg_step_pace" = "קצב צעדים ממוצע";
+"str_max_step_pace" = "קצב צעדים מקסימלי";
+"str_min_step_pace" = "קצב צעדים מינימלי";
+
+"str_user_protocol_tips" = "אנו נעזור לך להבין כיצד אנו אוספים ומאחסנים את המידע האישי שלך והזכויות הנלוות שלך בהתאם ל\"הסכם המשתמש\" ו\"מדיניות הפרטיות\". אנו זקוקים לכמה הרשאות בסיסיות כדי להבטיח את הפעולה הרגילה של Muslim Watch, ללא שלך הרשאה, לא נשתף או נספק את המידע שלך לצד שלישי כלשהו. אתה יכול לגשת, לשנות, למחוק את המידע האישי שלך או לנהל את ההרשאה שלך, ואנו גם נספק דרך לבטל או לשנות את חשבונך.";
+"str_welcome_use" = "ברוכים הבאים להתחדשות";
+"str_protocol_read_tips" = "לאחר הקריאה, אנא לחץ על כפתור ההסכמה למטה כדי להיכנס לאפליקציה";
+"str_please_read" = "אנא קרא";
+"str_refuse" = "דחה";
+"str_sure_enter" = "הסכים והיכנס";
+"str_pass" = "דלג";
+"str_login" = "כניסה";
+"str_register" = "הירשם";
+"str_account" = "חשבון";
+"str_password" = "סיסמה";
+"str_password_old" = "סיסמה ישנה";
+"str_password_new" = "סיסמה חדשה";
+"str_forget_pw" = "שכח את הסיסמה";
+"str_has_not_account" = "אין לך חשבון?";
+"str_go" = "לך";
+"str_other_login" = "שיטות כניסה אחרות";
+"str_has_account" = "יש לו חשבון,";
+"str_password_again" = "אשר את הסיסמה";
+"str_verification_code" = "קוד אימות";
+"str_verification_code_rec" = "קבל קוד אימות";
+"str_phone" = "מספר טלפון נייד";
+
+"str_nick" = "ניקיון";
+"str_user_avatar" = "אווטאר";
+"str_sex" = "סקס";
+"str_birthday" = "יום הולדת";
+"str_height" = "גובה";
+"str_weight" = "משקל";
+
+"str_user_protocol" = "פרוטוקול משתמש";
+"str_privacy_policy" = "מדיניות פרטיות";
+"str_about_help" = "עזרה";
+"str_account_safe" = "חשבון ובטוח";
+"str_unit" = "יחידה";
+"str_unit_metric" = "מדד";
+"str_unit_imperial" = "אימפריאלי";
+"str_clear_cache" = "נקה מטמון";
+"str_privacy_safe" = "בטוח פרטיות";
+"str_your_question" = "אנא תאר את השאלה שלך...";
+"str_app_log" = "העלה יומני אפליקציה כדי לעזור לנו למצוא ולייעל בעיות.";
+"str_device_log" = "העלה יומני מכשירים כדי לעזור לנו למצוא ולמטב בעיות במכשיר.";
+"str_contact" = "צור קשר";
+"str_phone_email" = "הטלפון או האימייל שלך";
+"str_commit_feedback" = "שלח משוב";
+"str_man" = "זכר";
+"str_woman" = "נקבה";
+
+"str_account_bind" = "איגד חשבון";
+"str_account_cancel" = "ביטול חשבון";
+"str_update_pw" = "שנה סיסמה";
+"str_login_out" = "התנתק";
+"str_account_current" = "חשבון נוכחי:";
+"str_sync_person" = "סנכרן מידע אישי לענן";
+"str_sync_sport" = "סנכרן נתוני ספורט לענן";
+"str_sync_health" = "סנכרן נתוני בריאות לענן";
+"str_clear_data" = "נקה את כל נתוני הענן";
+"str_temp" = "טמפרטורה";
+"str_temp_centigrade" = "℃";
+"str_temp_fahrenheit" = "℉";
+"str_album" = "אלבום";
+"pull_to_refresh" = "משוך כדי לרענן";
+"syncing" = "מרענן";
+"str_sync_success" = "רענן בהצלחה";
+"str_load_more" = "טען עוד";
+"str_ota_info" = "עדכן מידע";
+"str_device_scan_qrcode" = "סריקת מכשיר";
+"str_edit" = "ערוך";
+"str_please_input_legal_account" = "אנא הזן חשבון חוקי!";
+"str_please_input_legal_pw" = "אנא הזן סיסמה עם 6-16 ספרות ואותיות";
+"str_unset" = "בוטל";
+
+"str_deep_sleep" = "שינה עמוקה";
+"str_light_sleep" = "שינה קלה";
+"str_wake_up" = "להתעורר";
+"str_sp" = "לחץ דם סיסטולי";
+"str_dp" = "לחץ דם דיאסטולי";
+
+"str_reset_pw_fail" = "החלפת הסיסמה נכשלה, אנא נסה שוב";
+"str_reset_pw_success" = "הסיסמה שונתה בהצלחה, אנא היכנס שוב";
+"str_please_input_opw" = "אנא הזן את הסיסמה הישנה שלך";
+"str_please_input_npw" = "אנא הזן סיסמה חדשה";
+"str_update_user_info_fail" = "נכשל בעדכון פרטי המשתמש, אנא נסה שוב";
+"str_network_unconnect" = "רשת לא מחוברת";
+"str_network_error" = "שגיאת רשת, אנא נסה שוב";
+"str_account_not_exist_login" = "החשבון אינו קיים, אנא היכנס שוב";
+"str_login_overdue" = "פג תוקף הכניסה, אנא היכנס שוב";
+"str_account_pw_error" = "שגיאת חשבון או סיסמה";
+"str_account_exist" = "החשבון כבר קיים";
+"str_old_pw_error" = "הסיסמה הישנה שגויה";
+"str_verify_error" = "שגיאת קוד אימות, אנא נסה שוב";
+"str_verify_overdue" = "פג תוקף קוד האימות, אנא נסה שוב";
+"str_verify_code_fail" = "השגת קוד האימות נכשלה, אנא נסה שוב";
+"str_account_not_exist" = "החשבון לא קיים, אנא נסה שוב";
+"str_pw_diff" = "שתי הזנות סיסמאות אינן עקביות";
+"str_register_fail" = "הרישום נכשל, אנא נסה שוב";
+"str_register_success" = "הרישום הצליח";
+"str_please_input_legal_verify" = "אנא הזן קוד אימות בן 4 ספרות";
+"str_clear_cache_tips" = "האם אתה בטוח שתמחק את המטמון?";
+"str_clear_cache_success" = "ניקוי המטמון הצליח";
+"str_no_cache" = "כרגע אין מטמון";
+"str_connected" = "מחובר";
+"str_disconnected" = "מנותק";
+"str_login_fail" = "הכניסה נכשלה, אנא נסה שוב";
+"str_del_acc_fai" = "היציאה מהחשבון נכשלה, אנא נסה שוב";
+"str_bind_account_fail" = "כריכת החשבון נכשלה, אנא נסה שוב";
+"str_back_desktop_tips" = "לחץ שוב כדי לצאת מ-Muslim Watch";
+
+"str_count" = "פעמים";
+"str_times_min" = "פעמים/דקה";
+"str_no_data" = "עדיין אין נתונים";
+"str_mins" = "דקות";
+
+"str_second" = "שני";
+"str_contact_person" = "איש קשר";
+"str_alarm_exist" = "ההתרעה כבר קיימת";
+"str_max_alarm_count" = "הוסף עד 5 אזעקות";
+"str_max_contact_count" = "הוסף עד 20 אנשי קשר";
+
+"str_select_all" = "בחר הכל";
+"str_call" = "התקשר";
+"str_sms" = "SMS";
+"str_qq" = "QQ";
+"str_wechat" = "WeChat";
+"str_whatsapp" = "וואטסאפ";
+"str_messenger" = "שליח";
+"str_twitter" = "טוויטר";
+"str_e_wechat" = "WeChat ארגוני";
+"str_dingding" = "דינגדינג";
+"str_email" = "אימייל";
+"str_calendar" = "לוח שנה";
+"str_viber" = "Viber";
+"str_skype" = "סקייפ";
+"str_kakaotalk" = "Kakaotalk";
+"str_tumblr" = "Tumblr";
+"str_snapchat" = "Snapchat";
+"str_youtube" = "יוטיוב";
+"str_pinterset" = "Pinterset";
+"str_tiktok" = "Tiktok";
+"str_gmail" = "G-mail";
+"str_other" = "אחר";
+"str_facebook" = "פייסבוק";
+"str_linkedin" = "Linkedin";
+"str_instagram" = "אינסטגרם";
+"str_line" = "קו";
+
+"str_ota_start" = "התחל שדרוג";
+"str_ota_restart" = "הפעל מחדש";
+"str_ota_current_version" = "גרסת קושחה נוכחית:";
+"str_ota_version" = "גרסת קושחה:";
+"str_ota_filesize" = "גודל קושחה:";
+"str_ota_update_message" = "עדכון הודעה:";
+"str_bluetooth_poweroff" = "אנא הפעל את ה-Bluetooth של הטלפון שלך";
+"str_search_qrcode_error" = "שגיאת Qrcode";
+"str_connect_fail" = "החיבור נכשל";
+"str_device_disconnected" = "המכשיר מנותק";
+"str_search_qrcode_tips" = "הכנס את קוד QR/ברקוד לתיבה, והוא ייסרק אוטומטית";
+"str_clear_alarm_tips" = "האם אתה בטוח שברצונך למחוק את האזעקה?";
+"str_delete" = "מחק";
+"str_please_input_person" = "אנא הזן אדם";
+"str_please_input_contact" = "אנא הזן פרטי איש קשר";
+
+"str_camera_permission_title" = "הרשאת המצלמה אינה מופעלת";
+"str_camera_permission_message" = "תוכל להגדיר ב\'הגדרות-->Muslim Watch\" כדי לאפשר הרשאות מצלמה";
+"str_location_permission_title" = "הרשאת מיקום לא מופעלת";
+"str_location_permission_message" = "תוכל לאפשר הרשאת מיקום ב\"הגדרות-->Muslim Watch\"";
+"str_omit_device_message" = "כדי להבטיח שהמכשיר יתחבר כרגיל בפעם הבאה,\nעבור אל \"הגדרות>Bluetooth\" כדי להתעלם מהמכשיר הזה";
+"str_signout_message" = "האם אתה בטוח שאתה רוצה לצאת?";
+"str_sport_end_message" = "האם אתה בטוח שאתה רוצה לסיים את הספורט?";
+"str_sport_end_nodata_message" = "מרחק התרגיל אינו מספיק, האם אתה בטוח לוותר על התרגיל הנוכחי?";
+"str_contact_permission_title" = "הרשאת איש קשר אינה מופעלת";
+"str_contact_permission_message" = "תוכל להגדיר את \"הגדרות-->Muslim Watch\" כדי לאפשר שימוש בהרשאות פנקס הכתובות";
+
+"str_check_app_version" = "בדוק אם יש גרסה חדשה";
+"str_longpress_unlock" = "לחץ לחיצה ארוכה כדי לבטל את הנעילה";
+"str_longpress_end" = "סיום לחיצה ארוכה";
+"str_click_continue" = "לחץ כדי להמשיך";
+"str_time_goal_reached" = "מזל טוב, זמן האימון הגיע ליעד!";
+"str_distance_goal_reached" = "מזל טוב, מרחק האימון הגיע ליעד!";
+"str_calorie_goal_reached" = "מזל טוב, היעד הקלורי של האימון שלך הושג!";
+"str_vibration_settings" = "הגדרות רטט";
+"str_screen_always_on" = "המסך פועל תמיד";
+"str_always_bright" = "תמיד בהיר";
+"str_auto_pause" = "השהיה אוטומטית";
+"str_upgrading" = "משדרג";
+"str_upgrade_success" = "השדרוג הצליח";
+"str_upgrade_fail" = "השדרוג נכשל";
+"str_binding" = "כריכה";
+"str_device_restart" = "הפעלה מחדש של המכשיר";
+"str_device_shutdown" = "כיבוי מכשיר";
+"str_device_restart_tips" = "האם אתה בטוח שברצונך להפעיל מחדש את המכשיר?";
+"str_device_shutdown_tips" = "האם אתה בטוח שברצונך לכבות את המכשיר?";
+"str_join_me" = "זהה את קוד ה-QR למעלה, הצטרף אלי";
+"str_questions_and_suggestions" = "שאלות והצעות";
+"str_contact_details" = "פרטי איש קשר";
+"str_submit_feedback" = "שלח משוב";
+"str_is_latest_version" = "האם הגרסה העדכנית ביותר";
+"str_new_version_found" = "נמצאה גרסה חדשה, האם אתה רוצה לעדכן?";
+"str_please_open_camera" = "אנא פתח את מתג המצלמה!";
+"str_do_not_disturb_allday" = "אל תפריע כל היום";
+"str_do_not_disturb_timing" = "נא לא להפריע תזמון";
+"str_wechat_do_not_installed" = "לא התקנת את APP WeChat, אנא התקן אותה תחילה";
+"str_cloud_data_clear" = "האם אתה בטוח לנקות את כל נתוני הענן?";
+"str_feedback_success" = "הצלחת משוב";
+"str_feedback_fail" = "משוב נכשל";
+
+"str_reinstall" = "התקן מחדש";
+"str_select_picture_please" = "אנא בחר תמונה";
+"str_up_and_down_same_tips" = "הפונקציה שלמעלה והפונקציה למטה לא יכולות להיות זהות";
+"str_select_picture" = "בחר תמונה";
+"str_restore_default" = "שחזר ברירת מחדל";
+"str_time_position" = "מיקום זמן";
+"str_time_up" = "פונקציית למעלה";
+"str_time_down" = "פונקציית למטה";
+"str_text_color" = "צבע טקסט";
+"str_picture_brightness" = "בהירות התמונה";
+"str_upper" = "עליון";
+"str_below" = "למטה";
+"str_nothing" = "כלום";
+"str_date" = "תאריך";
+"str_contact_already_exists" = "איש קשר כבר קיים";
+"str_bluetooth_permission_message" = "אנא פתח את ההגדרות-->Bluetooth, מצא והתחבר";
+"str_dial_restore_tips" = "האם אתה בטוח ששחזר את ברירת המחדל?";
+"str_installed_count" = "%ld אנשים התקינו";
+"str_unbinding_failed" = "ביטול הכריכה נכשל";
+"str_disconnect_unbinding_tips" = "המכשיר אינו מחובר. אם תשנה את החשבון כדי לאגד מכשיר זה, נא שחזר את הגדרות היצרן במכשיר.";
+"str_medical_tips" = "שים לב שתכונה זו אינה מיועדת לשימוש רפואי. אם יש לך שאלות או חששות רפואיים, נא להתייעץ עם איש מקצוע בתחום הבריאות.";
+
+"str_drop_down_refresh" = "פתח למטה כדי לרענן";
+"str_refreshing" = "מרענן";
+"str_release_refresh_now" = "שחרר כדי לרענן עכשיו";
+"str_pull_up_to_load_more" = "משוך למעלה כדי לטעון עוד";
+"str_loading" = "טוען";
+"str_release_load_now" = "שחרר לטעינה כעת";
+"str_no_more_data" = "אין יותר נתונים";
+"str_no_disturb_tips" = "כאשר מצב 'נא לא להפריע' מופעל, שיחות נכנסות והתראות לא יזכרו (למעט השעון המעורר)";
+"str_load_failed" = "הטעינה נכשלה";
+"str_refresh_failed" = "הרענון נכשל";
+
+"str_menstrual_cycle_reminder" = "תזכורת למחזור הווסת";
+"str_cycle_days" = "ימי מחזור";
+"str_menstrual_days" = "מספר ימי הווסת";
+"str_menstrual_last_time" = "זמן תחילת הווסת האחרונה";
+"str_remind_time" = "זמן תזכורת";
+"str_remind_menstrual_period" = "תזכורת למחזור";
+"str_remind_ovulation_period" = "תזכורת לתקופת הביוץ";
+"str_remind_ovulation_peak" = "תזכורת לשיא הביוץ";
+"str_remind_ovulation_end" = "תזכורת לסיום הביוץ";
+
+"str_clear_data_success" = "נקה את הצלחת הנתונים";
+"str_clear_data_failed" = "הניקוי נכשל";
+"str_delete_failed" = "המחיקה נכשלה";
+
+
+"str_tab_free_exercise" = "פעילות גופנית בחינם";
+"str_tab_ballet" = "בַּלֶט";
+"str_tab_golf" = "גוֹלף";
+"str_tab_square_dance" = "ריקוד ריבועי";
+"str_tab_baseball" = "בייסבול";
+"str_tab_rugby" = "כדורגל";
+"str_tab_poppy_jump" = "בובי לקפוץ";
+"str_tab_elliptical_machine" = "מכונה אליפטית";
+"str_tab_fitness" = "כושר";
+"str_tab_kayak" = "קָאִיָאק";
+"str_tab_on_foot" = "ברגל";
+"str_tab_snow_sports" = "ספורט מים";
+"str_tab_paddle_board" = "לוח משוטים";
+"str_tab_pilates" = "פילאטיס";
+"str_tab_roller_skating" = "החלקה על גלגיליות";
+"str_tab_boating" = "סִירָאוּת";
+"str_tab_sailboat" = "מִפרָשִׂית";
+"str_tab_skateboard" = "סקייטבורד";
+"str_tab_stretch" = "להתמתח";
+"str_tab_water_polo" = "כדור מים";
+
+
+"str_jl_Running" = "רץ";
+"str_jl_Treadmill" = "הליכון";
+"str_jl_Outdoorrunning" = "ריצה בחוץ";
+"str_jl_Cycling" = "רכיבה";
+"str_jl_Swim" = "לשחות";
+"str_jl_Walking" = "הליכה";
+"str_jl_Climbing" = "טיפוס הרים";
+"str_jl_Yoga" = "יוֹגָה";
+"str_jl_Spinning" = "אופני ספינינג";
+"str_jl_Basketball" = "כדורסל";
+"str_jl_Football" = "כדורגל";
+"str_jl_Badminton" = "נוצית";
+"str_jl_Marathon" = "מָרָתוֹן";
+"str_jl_Indoorwalking" = "הליכה בתוך הבית";
+"str_jl_Freemovement" = "פעילות גופנית בחינם";
+"str_jl_run_22" = "מסלול ושדה";
+"str_jl_Strengthtraining" = "אימון פיזי";
+"str_jl_Weightlifting" = "הרמת משקולות";
+"str_jl_Boxing" = "אִגרוּף";
+"str_jl_Jumprope" = "חבל קפיצה";
+"str_jl_StairClimbing" = "לטפס במדרגות";
+"str_jl_Ski" = "סקִי";
+"str_jl_Skate" = "לְהַחלִיק עַל מִחלָקַיִם";
+"str_jl_Rollerskating" = "החלקה על גלגיליות";
+"str_jl_run_31" = "רכיבה על אופניים מקורה";
+"str_jl_Hulahoop" = "חישוק";
+"str_jl_Golf" = "גוֹלף";
+"str_jl_Beyzbol" = "בייסבול";
+"str_jl_Dance" = "לִרְקוֹד";
+"str_jl_Pingpong" = "פינג פונג";
+"str_jl_Hockey" = "הוֹקֵי";
+"str_jl_Pilates" = "פילאטיס";
+"str_jl_Taekwondo" = "טאקוונדו";
+"str_jl_Handball" = "כַּדוּר יָד";
+"str_jl_run_41" = "היפ הופ";
+"str_jl_Volleyball" = "כַּדוּר עָף";
+"str_jl_Tennis" = "טֶנִיס";
+"str_jl_Darts" = "דַארטס";
+"str_jl_Gymnastics" = "התעמלות";
+"str_jl_Steps" = "לדרוך על";
+"str_jl_Ellipticalmachine" = "מכונה אליפטית";
+"str_jl_Zumba" = "זומבה";
+"str_jl_Cricket" = "קרִיקֶט";
+"str_jl_Travelbywalking" = "לנסוע בהליכה";
+"str_jl_Aerobicexercise" = "פעילות אירובית";
+"str_jl_Rowingmachine" = "מכונת חתירה";
+"str_jl_Rugby" = "כדורגל";
+"str_jl_run_54" = "כפיפות בטן";
+"str_jl_Dumbbells" = "משקולת";
+"str_jl_Bodybuilding" = "אֶרוֹבִיקָה";
+"str_jl_Karate" = "קָרָטֵה";
+"str_jl_Fencing" = "סִיוּף";
+"str_jl_Martialarts" = "אומנויות לחימה";
+"str_jl_TaiChi" = "טאי צ'י";
+"str_jl_Frisbee" = "פריסבי";
+"str_jl_Archery" = "קַשׁתוּת";
+"str_jl_Horseriding" = "רכיבה על סוס";
+"str_jl_Bowling" = "בָּאוּלִינְג";
+"str_jl_Surf" = "לִגלוֹשׁ";
+"str_jl_Softball" = "כַּדוּר בָּסִיס";
+"str_jl_Squash" = "קישוא";
+"str_jl_Sailboat" = "מִפרָשִׂית";
+"str_jl_Pullup" = "משיכות";
+"str_jl_Skateboard" = "סקייטבורד";
+"str_jl_Trampoline" = "טרַמפּוֹלִינָה";
+"str_jl_Fishing" = "דיג";
+"str_jl_Poledancing" = "ריקוד מוט";
+"str_jl_Squaredance" = "ריקוד ריבועי";
+"str_jl_Jazz" = "ג'ֶז";
+"str_jl_Ballet" = "בַּלֶט";
+"str_jl_Disco" = "דִיסקוֹ";
+"str_jl_Tapdance" = "ריקוד סטפס";
+"str_jl_Moderndance" = "ריקוד מודרני";
+"str_jl_Pushups" = "שכיבות סמיכה";
+"str_jl_Scooter" = "קַטנוֹעַ";
+"str_jl_Plank" = "קֶרֶשׁ";
+"str_jl_Billiards" = "בִּילְיַארד";
+"str_jl_Rockclimbing" = "טיפוס הרים";
+"str_jl_DiscusThrow" = "דִיסקוּס";
+"str_jl_HorseRacing" = "גזע";
+"str_jl_Wrestling" = "הַאָבְקוּת";
+"str_jl_Highjump" = "קפיצה לגובה";
+"str_jl_Parachute" = "מַצנֵחַ";
+"str_jl_Shotput" = "הדיפת כדור ברזל";
+"str_jl_Longjump" = "קפיצה לרוחק";
+"str_jl_Javelinthrow" = "כִּידוֹן";
+"str_jl_Hammer" = "זריקת פטיש";
+"str_jl_Squat" = "שָׁפוּף";
+"str_jl_Legpress" = "לחיצת רגליים";
+"str_jl_run_96" = "אופני שטח";
+"str_jl_Motocross" = "מוטוקרוס";
+"str_jl_Rowing" = "חתירה";
+"str_jl_Crossfit" = "קרוספיט";
+"str_jl_Waterbike" = "אופני מים";
+"str_jl_Kayak" = "קָאִיָאק";
+"str_jl_Croquet" = "קרוֹקֶט";
+"str_jl_Floorball" = "כדור רצפה";
+"str_jl_MuayThai" = "מואי תאי";
+"str_jl_Jaiball" = "ג'אי עלאי";
+"str_jl_run_106" = "טניס (דאבל)";
+"str_jl_Backtraining" = "אימון גב";
+"str_jl_Watervolleyball" = "כדורעף מים";
+"str_jl_Waterskiing" = "סקי מים";
+"str_jl_Mountainclimber" = "מכונת טיפוס";
+"str_jl_HIIT" = "HIIT";
+"str_jl_BODYCOMBAT" = "קרב גוף";
+"str_jl_BODYBALANCE" = "שיווי משקל";
+"str_jl_TRX" = "תרגיל התנגדות לגוף מלא";
+"str_jl_TaeBo" = "טאקוונדו";
+"str_jl_run_116" = "BMX";
+"str_jl_run_117" = "לִמְתוֹחַ";
+"str_jl_run_118" = "כושר פנימי";
+"str_jl_run_119" = "אימון גמישות";
+"str_jl_run_120" = "אימון פלג גוף עליון";
+"str_jl_run_121" = "אימון פלג גוף תחתון";
+"str_jl_run_122" = "תרגיל קרקע";
+"str_jl_run_123" = "אימון משקולת";
+"str_jl_run_124" = "אימון פיזי";
+"str_jl_run_125" = "דדליפט";
+"str_jl_run_126" = "בורפי";
+"str_jl_run_127" = "אימון פונקציונלי";
+"str_jl_run_128" = "אימון מותניים ובטן";
+"str_jl_run_129" = "כדורגל שולחן";
+"str_jl_run_130" = "לָצוּד";
+"str_jl_run_131" = "סטנד אפ פאדל למטוס";
+"str_jl_run_132" = "רפטינג בקיאקים";
+"str_jl_run_133" = "סִירַת מָנוֹעַ";
+"str_jl_run_134" = "פארקור";
+"str_jl_run_135" = "טרקטורון";
+"str_jl_run_136" = "מצנחי רחיפה";
+"str_jl_run_137" = "סִלְסוּל";
+"str_jl_run_138" = "לוח סקי";
+"str_jl_run_139" = "מִגלָשַׁיִם";
+"str_jl_run_140" = "סקי באלפים";
+"str_jl_run_141" = "קרוס קאנטרי סקי";
+"str_jl_run_142" = "רכב שלג";
+"str_jl_run_143" = "רכב שלג";
+"str_jl_run_144" = "מִזחֶלֶת";
+"str_jl_run_145" = "קישוא";
+"str_jl_run_146" = "דִיסקוּס";
+"str_jl_run_147" = "sepak takraw";
+"str_jl_run_148" = "כדור מים";
+"str_jl_run_149" = "ריקודי בטן";
+"str_jl_run_150" = "ריקודים סלוניים";
+"str_jl_run_151" = "ריקוד עם";
+"str_jl_run_152" = "ריקוד לטיני";
+"str_jl_run_153" = "ג'וּדוֹ";
+"str_jl_run_154" = "קיקבוקסינג";
+"str_jl_run_155" = "להעיף עפיפון";
+"str_jl_run_156" = "משיכת חבל";
+"str_jl_run_157" = "תרנגולת";
+"str_jl_run_158" = "קבדי";
+"str_jl_run_159" = "מירוץ";
+"str_jl_run_160" = "משחק חלוקי נחל";
+"str_jl_run_161" = "משחק תגים";
+"str_jl_Recommend" = "לְהַמלִיץ";
+"str_jl_Fitness" = "כושר";
+"str_jl_Leisure" = "פְּנַאִי";
+"str_jl_Athletics" = "תַחֲרוּתִי";
+"str_jl_Ball" = "כדורים";
+"str_jl_Danceclass" = "לִרְקוֹד";
+"str_bloodsugar_title" = "סוכר בדם";
+"str_current_bloodsugar" = "רמת הסוכר הנוכחית בדם";
+"str_avg_bloodsugar" = "סוכר ממוצע בדם";
+"str_max_bloodsugar" = "סוכר מקסימלי בדם";
+"str_min_bloodsugar" = "מינימום סוכר בדם";
+"str_normal_bloodsugar_range" = "ערך התייחסות מדעי לסוכר בדם";
+"str_range_bloodsugar_1" = "גלוקוז בדם בצום";
+"str_range_bloodsugar_2" = "סוכר בדם לפני הארוחה";
+"str_range_bloodsugar_3" = "סוכר בדם לאחר ארוחה";
+"str_range_bloodsugar_4" = "סוכר בדם לפני השינה";
+"str_range_bloodsugar_5" = "סוכר מוקדם בבוקר";
+"str_bloodsugar_description" = "נתוני הסוכר בדם משמשים רק כהתייחסות לערכים בריאותיים ואין להשתמש בהם למטרות רפואיות.";
+"str_press_title" = "לַחַץ";
+"str_current_press" = "לחץ נוכחי";
+"str_avg_press" = "לחץ ממוצע";
+"str_max_press" = "הלחץ הגדול ביותר";
+"str_min_press" = "לחץ מינימלי";
+"str_normal_press_range" = "לְהִרָגַע";
+"str_slow_press" = "נוֹרמָלִי";
+"str_middle_press" = "בינוני";
+"str_height_press" = "גָבוֹהַ";
+"str_day_avg_press" = "לחץ יומי ממוצע";
+"str_press_description" = "נתוני הלחץ משמשים רק כהתייחסות לערכים בריאותיים ואין להשתמש בהם למטרות רפואיות.";
+"str_remind_unit_day" = "שָׁמַיִם";
+"str_remind_unit_beforeday" = "ימים מראש";
+
+
+
+//穆斯林新添加
+"str_quran" = "קוראן";
+
+/*  */
+"str_masbaha" = "טסביח";
+
+/*  */
+"str_hesn" = "מוסלמי היסנול";
+
+/*  */
+"str_compass" = "מצפן";
+
+/*  */
+"str_prayer" = "זמן תפילה";
+
+/*  */
+"str_fajr" = "אל-פג'ר";
+
+/*  */
+"str_dhuhr" = "אל-דחור";
+
+/*  */
+"str_asr" = "אל-אסר";
+
+/*  */
+"str_maghreb" = "אל-מגרב";
+
+/*  */
+"str_lsha" = "אל-אישה";
+
+/*  */
+"str_muslim" = "מוסלמי";
+
+/*  */
+"str_north" = "צָפוֹן";
+
+/*  */
+"str_south" = "דָרוֹם";
+
+/*  */
+"str_west" = "מַעֲרָב";
+
+/*  */
+"str_east" = "מזרח";
+
+/*  */
+"str_northwest" = "צפון מערב";
+
+/*  */
+"str_northeast" = "צְפוֹן מִזרָח";
+
+/*  */
+"str_southwest" = "דְרוֹם מַעֲרָב";
+
+/*  */
+"str_southeast" = "דְרוֹם מִזְרָח";
+
+/*  */
+"str_islamic" = "לוח שנה היג'רי";
+
+
+"str_jl_denx_sunrise" = "זריחה";
+"str_jl_denx_sunset" = "שקיעת החמה";

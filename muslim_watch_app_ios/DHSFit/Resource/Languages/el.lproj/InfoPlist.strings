@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  DHSFit
+
+  Created by qiao liwei on 2023/3/1.
+  
+*/
+"NSBluetoothAlwaysUsageDescription" = "When configuring the WIFI network, the network distribution device needs to turn on the bluetooth";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "You need to use the location permission to get the weather and location in the scene.";
+"NSLocationAlwaysUsageDescription" = "You need to use the location permission to get the weather and location in the scene.";
+"NSLocationWhenInUseUsageDescription" = "You need to use the location permission to get the weather and location in the scene.";

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="QuranAlarmCell" rowHeight="55" id="KGk-i7-Jjw" customClass="QuranAlarmCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="55"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="55"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mu_alarm_1" translatesAutoresizingMaskIntoConstraints="NO" id="S2w-3c-ubu">
+                        <rect key="frame" x="12" y="12.666666666666664" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="cE5-4m-6AD"/>
+                            <constraint firstAttribute="width" constant="30" id="dlK-sw-puc"/>
+                        </constraints>
+                    </imageView>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Al-fajr" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rlf-LU-f4s">
+                        <rect key="frame" x="46" y="17" width="51" height="21"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                        <color key="textColor" name="D_#2E2E2E"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Z8-fW-JLS">
+                        <rect key="frame" x="259" y="12" width="51" height="31"/>
+                        <color key="onTintColor" name="D_#FFD000"/>
+                    </switch>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GJU-O6-D51">
+                        <rect key="frame" x="204" y="17" width="51" height="21"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                        <color key="textColor" name="D_#2E2E2E"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="Rlf-LU-f4s" firstAttribute="centerY" secondItem="S2w-3c-ubu" secondAttribute="centerY" id="67z-O9-3MX"/>
+                    <constraint firstAttribute="trailing" secondItem="5Z8-fW-JLS" secondAttribute="trailing" constant="12" id="9Tb-Ag-9Cn"/>
+                    <constraint firstItem="Rlf-LU-f4s" firstAttribute="leading" secondItem="S2w-3c-ubu" secondAttribute="trailing" constant="4" id="DHE-pJ-dgP"/>
+                    <constraint firstItem="5Z8-fW-JLS" firstAttribute="leading" secondItem="GJU-O6-D51" secondAttribute="trailing" constant="4" id="NSr-5b-NRg"/>
+                    <constraint firstItem="S2w-3c-ubu" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="RI1-13-DNn"/>
+                    <constraint firstItem="5Z8-fW-JLS" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="fkw-Ou-P8r"/>
+                    <constraint firstItem="GJU-O6-D51" firstAttribute="centerY" secondItem="5Z8-fW-JLS" secondAttribute="centerY" id="kgK-hN-80j"/>
+                    <constraint firstItem="S2w-3c-ubu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="yl1-53-s5K"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="alarmIconIv" destination="S2w-3c-ubu" id="iZq-Ai-YKu"/>
+                <outlet property="alarmNameLb" destination="Rlf-LU-f4s" id="aUb-hA-yzf"/>
+                <outlet property="alarmSwitch" destination="5Z8-fW-JLS" id="MdD-cr-ezA"/>
+                <outlet property="alarmTimeLb" destination="GJU-O6-D51" id="mMI-j2-bgy"/>
+            </connections>
+            <point key="canvasLocation" x="104" y="-11"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="mu_alarm_1" width="26" height="26"/>
+        <namedColor name="D_#2E2E2E">
+            <color red="0.1803921568627451" green="0.1803921568627451" blue="0.1803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="D_#FFD000">
+            <color red="1" green="0.81568627450980391" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

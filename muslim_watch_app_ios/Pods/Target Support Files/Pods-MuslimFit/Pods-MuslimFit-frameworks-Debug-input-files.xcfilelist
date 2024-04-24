@@ -1,0 +1,13 @@
+${PODS_ROOT}/Target Support Files/Pods-MuslimFit/Pods-MuslimFit-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/BRPickerView/BRPickerView.framework
+${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework
+${BUILT_PRODUCTS_DIR}/HBDNavigationBar/HBDNavigationBar.framework
+${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
+${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework
+${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework
+${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework
+${BUILT_PRODUCTS_DIR}/PPGetAddressBook/PPGetAddressBook.framework
+${BUILT_PRODUCTS_DIR}/SGQRCode/SGQRCode.framework
+${BUILT_PRODUCTS_DIR}/SwiftAudioEx/SwiftAudioEx.framework
+${BUILT_PRODUCTS_DIR}/Texture/AsyncDisplayKit.framework

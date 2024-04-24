@@ -1,0 +1,112 @@
+PODS:
+  - Alamofire (4.8.0)
+  - AMap2DMap (5.6.1):
+    - AMapFoundation (~> 1.4)
+  - AMapFoundation (1.8.2)
+  - AMapLocation (2.10.0):
+    - AMapFoundation (>= 1.8.0)
+  - BRPickerView (2.8.1):
+    - BRPickerView/AddressPickerView (= 2.8.1)
+    - BRPickerView/Base (= 2.8.1)
+    - BRPickerView/DatePickerView (= 2.8.1)
+    - BRPickerView/StringPickerView (= 2.8.1)
+  - BRPickerView/AddressPickerView (2.8.1):
+    - BRPickerView/Base
+  - BRPickerView/Base (2.8.1)
+  - BRPickerView/DatePickerView (2.8.1):
+    - BRPickerView/Base
+  - BRPickerView/StringPickerView (2.8.1):
+    - BRPickerView/Base
+  - FSCalendar (2.8.4)
+  - HBDNavigationBar (1.9.6)
+  - Kingfisher (7.11.0)
+  - PINCache (3.0.3):
+    - PINCache/Arc-exception-safe (= 3.0.3)
+    - PINCache/Core (= 3.0.3)
+  - PINCache/Arc-exception-safe (3.0.3):
+    - PINCache/Core
+  - PINCache/Core (3.0.3):
+    - PINOperation (~> 1.2.1)
+  - PINOperation (1.2.2)
+  - PINRemoteImage/Core (3.0.3):
+    - PINOperation
+  - PINRemoteImage/iOS (3.0.3):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.3):
+    - PINCache (~> 3.0.3)
+    - PINRemoteImage/Core
+  - PPGetAddressBook (0.2.8)
+  - SGQRCode (3.0.1)
+  - SwiftAudioEx (0.15.3)
+  - Texture (3.1.0):
+    - Texture/AssetsLibrary (= 3.1.0)
+    - Texture/Core (= 3.1.0)
+    - Texture/MapKit (= 3.1.0)
+    - Texture/Photos (= 3.1.0)
+    - Texture/PINRemoteImage (= 3.1.0)
+    - Texture/Video (= 3.1.0)
+  - Texture/AssetsLibrary (3.1.0):
+    - Texture/Core
+  - Texture/Core (3.1.0)
+  - Texture/MapKit (3.1.0):
+    - Texture/Core
+  - Texture/Photos (3.1.0):
+    - Texture/Core
+  - Texture/PINRemoteImage (3.1.0):
+    - PINRemoteImage/iOS (~> 3.0.0)
+    - PINRemoteImage/PINCache
+    - Texture/Core
+  - Texture/Video (3.1.0):
+    - Texture/Core
+
+DEPENDENCIES:
+  - Alamofire (= 4.8.0)
+  - AMap2DMap
+  - AMapLocation
+  - BRPickerView
+  - FSCalendar
+  - HBDNavigationBar
+  - Kingfisher
+  - PPGetAddressBook
+  - SGQRCode (~> 3.0.1)
+  - SwiftAudioEx (~> 0.15.3)
+  - Texture
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AMap2DMap
+    - AMapFoundation
+    - AMapLocation
+    - BRPickerView
+    - FSCalendar
+    - HBDNavigationBar
+    - Kingfisher
+    - PINCache
+    - PINOperation
+    - PINRemoteImage
+    - PPGetAddressBook
+    - SGQRCode
+    - SwiftAudioEx
+    - Texture
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  AMap2DMap: cac76bc057de18a1641f34df6b50bf5bc6b23571
+  AMapFoundation: 9885c48fc3a78fdfb84a0299a2293e56ea3c9fec
+  AMapLocation: 5248aec2455ebb5d104b367813c946430a2ee033
+  BRPickerView: 2531a2d4d0fea0b57a1c738de215af0f88863a2f
+  FSCalendar: 2d1d0d9398f12d439f55c1fe0f01525b151b8260
+  HBDNavigationBar: a997b65ab7194271e5584b87a952fc851832f692
+  Kingfisher: b9c985d864d43515f404f1ef4a8ce7d802ace3ac
+  PINCache: 7a8fc1a691173d21dbddbf86cd515de6efa55086
+  PINOperation: daa34d4aa1d8449089be7d405b9d974abc4724c6
+  PINRemoteImage: f1295b29f8c5e640e25335a1b2bd9d805171bd01
+  PPGetAddressBook: e4b6b0a87e852df5d5b90c44ecd9ded7f6f1ccf6
+  SGQRCode: bf02d60e18d6660a9d75ff1c8b9b467f064f054e
+  SwiftAudioEx: 83eabba2940924fc1c0d5cb0896049921365229c
+  Texture: 2e8ab2519452515f7f5a520f5a8f7e0a413abfa3
+
+PODFILE CHECKSUM: 021848e1b9fad47805ae250aaf03dfe5dfcbb66d
+
+COCOAPODS: 1.14.3

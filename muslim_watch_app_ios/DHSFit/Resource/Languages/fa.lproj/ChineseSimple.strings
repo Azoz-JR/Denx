@@ -1,0 +1,777 @@
+//
+//  ChineseSimple.strings
+//  DHSFit
+//  简体中文
+//  Created by DHS on 2022/6/5.
+//
+
+
+"str_tab_home" = "خانه";
+"str_tab_sport" = "ورزش";
+"str_tab_device" = "دستگاه";
+"str_tab_mine" = "مال من";
+"str_cal" = "کالری";
+"str_distance" = "مسافت پیموده شده";
+"str_step" = "مراحل";
+"str_target" = "هدف";
+"str_sleep_title" = "خواب";
+"str_bp_title" = "فشار خون";
+"str_breathe_title" = "نفس بکش";
+"str_bt_title" = "دمای بدن";
+"str_hr_title" = "ضربان قلب";
+"str_bo_title" = "اکسیژن خون";
+
+"str_syncing" = "همگام سازی...";
+"str_syncing_fail" = "همگام سازی انجام نشد";
+"str_syncing_success" = "همگام سازی با موفقیت انجام شد";
+
+"str_personal_data" = "اطلاعات شخصی";
+"str_setting" = "تنظیم";
+"str_suggest" = "سوالات و پیشنهادات";
+"str_app_version_check" = "بررسی برنامه برای به روز رسانی";
+"str_help" = "کمک";
+"str_about" = "درباره";
+"str_qrcode" = "کد QR";
+"str_qrcode_manager" = "کارت ویزیت";
+"str_qrcode_length_out_limit" = "طول کد QR از حد مجاز بیشتر است";
+"str_please_input_name" = "لطفا یک نام وارد کنید";
+"str_please_input_qrcode" = "لطفا یک کد QR انتخاب کنید";
+"str_sport_setting" = "تنظیمات ورزشی";
+"str_time_goal" = "هدف زمانی";
+"str_calorie_goal" = "هدف کالری";
+"str_distance_goal" = "فاصله تا هدف";
+"str_breath_training" = "آموزش تنفس";
+"str_apple_health" = "سلامت سیب";
+"str_first_time" = "اولین بار";
+"str_second_time" = "بار دوم";
+"str_third_time" = "بار سوم";
+"str_fourth_time" = "چهارمین بار";
+"str_fifth_time" = "بار پنجم";
+"str_breath_tips" = "سوئیچ آموزش تنفس را روشن کنید و تمرین تنفس را 5 بار در روز انجام دهید.";
+"str_total_training_time" = "کل زمان تمرین";
+"str_average_training_time" = "میانگین زمان تمرین";
+
+"str_dial_market" = "بازار شماره گیری";
+"str_more" = "بیشتر";
+"str_msg_push" = "فشار پیام";
+"str_take_photo" = "عکس بگیر";
+"str_search_device" = "جستجوی دستگاه";
+"str_long_sit" = "یادآوری کم تحرک";
+"str_drink" = "یادآور نوشیدن آب";
+"str_warn_model" = "مدل هشدار";
+"str_alarm" = "یادآوری هشدار";
+"str_screen_light" = "مچ خود را بالا بیاورید تا صفحه نمایش روشن شود";
+"str_screen_long" = "زمان روشنایی صفحه";
+"str_hr_watcher" = "نمایشگر ضربان قلب";
+"str_no_disturb" = "حالت مزاحم نشوید";
+"str_ota" = "به روز رسانی سیستم عامل";
+"str_weather" = "همگام سازی آب و هوا";
+"str_address_book" = "دفتر آدرس";
+"str_take_photo_ok" = "عکس بگیر خوب";
+
+
+"str_total_distance" = "فاصله کل";
+"str_tab_sport_running_indoor" = "دوی داخل سالن";
+"str_tab_sport_running_outdoor" = "دویدن در فضای باز";
+"str_tab_sport_running" = "دویدن";
+"str_tab_sport_walking" = "پیاده روی ورزشی";
+"str_tab_sport_biking" = "دوچرخه سواری";
+"str_tab_sport_climing" = "کوه نوردی";
+"str_tab_sport_spinning" = "چرخش";
+"str_tab_sport_tennis" = "تنیس";
+"str_tab_sport_weight_lifting" = "وزنه برداری";
+"str_tab_sport_yoga" = "یوگا";
+"str_tab_sport_badminton" = "بدمینتون";
+"str_tab_sport_basketball" = "بسکتبال";
+"str_tab_sport_jumprope" = "طناب پرش";
+"str_tab_sport_free_exercise" = "تمرین رایگان";
+"str_tab_sport_football" = "فوتبال";
+"str_tab_sport_tabletennis" = "تنیس روی میز";
+"str_run_indoor_total_distance" = "مسافت دویدن کل داخل سالن";
+"str_run_outdoor_total_distance" = "مسافت کل اجرا شده در فضای باز";
+"str_walk_total_distance" = "مجموع مسافت پیاده روی";
+"str_bike_total_distance" = "مجموع مسافت دوچرخه";
+"str_cli_total_distance" = "کل مسافت صعود شده";
+"str_indoor" = "داخلی";
+"str_outdoor" = "در فضای باز";
+"str_total_time" = "کل زمان";
+
+"str_tab_day" = "روز";
+"str_tab_week" = "هفته";
+"str_tab_month" = "ماه";
+"str_tab_year" = "سال";
+
+"str_unit_step" = "مرحله";
+"str_total_step" = "مجموع مراحل";
+"str_total_cal" = "کالری کل";
+"str_cost_cal" = "هزینه";
+"str_step_title" = "تعداد گام ها";
+"str_day_avg_step" = "میانگین قدم در روز";
+"str_day_avg_distance" = "میانگین مسافت پیموده شده روزانه";
+"str_day_avg_cal" = "مصرف روزانه";
+
+"str_total_sleep_time" = "زمان خواب";
+"str_sleep_time" = "زمان خواب";
+"str_wake_time" = "زمان بیداری";
+"str_deep_time" = "زمان خواب عمیق";
+"str_light_time" = "زمان خواب سبک";
+"str_wake_times" = "زمان بیداری";
+"str_scien_tips" = "مقادیر مرجع علمی";
+"str_avg_sleep_time" = "میانگین زمان خواب";
+"str_avg_deep_sleep_percent" = "میانگین درصد خواب عمیق";
+"str_avg_light_sleep_percent" = "میانگین درصد خواب سبک";
+"str_avg_wake_sleep_percent" = "میانگین درصد بیداری";
+"str_avg_flow_sleep_time" = "میانگین زمان به خواب رفتن";
+"str_avg_flow_wake_time" = "میانگین زمان بیداری";
+"str_day_avg_sleep_time" = "متوسط ​​خواب روزانه";
+"str_day_avg_deep_time" = "متوسط ​​خواب عمیق در روز";
+"str_day_avg_light_time" = "متوسط ​​خواب سبک روزانه";
+"str_day_avg_wake_time" = "میانگین زمان بیداری در روز";
+"str_sleep_description" = "عناصر خواب علمی و سالم می توانند به طور موثری کیفیت خواب را بهبود بخشند و با انرژی بیشتری کار کنند.";
+
+"str_current_hr" = "ضربان قلب فعلی";
+"str_avg_hr" = "میانگین ضربان قلب";
+"str_max_hr" = "حداکثر ضربان قلب";
+"str_min_hr" = "حداقل ضربان قلب";
+"str_range_hr" = "محدوده ضربان قلب";
+"str_fast_hr" = "ضربان قلب سریع";
+"str_slow_hr" = "آهسته ضربان قلب";
+"str_day_avg_hr" = "میانگین روزانه ضربان قلب";
+"str_hr_description" = "استانداردهای داده بالا برای بزرگسالان عادی در یک حالت آرام است. ضربان قلب ورزشکاران یا افراد مسن نسبتاً آهسته است، معمولاً حدود 50 ضربه در دقیقه.\n\nداده های ضربان قلب فقط برای مرجع سلامتی است. مقادیر، لطفا برای اهداف پزشکی استفاده نکنید.";
+
+"str_current_bp" = "فشار خون فعلی";
+"str_avg_bp" = "فشار خون متوسط";
+"str_max_bp_sp" = "حداکثر فشار خون سیستولیک";
+"str_min_bp_sp" = "حداقل فشار خون سیستولیک";
+"str_max_bp_dp" = "حداکثر فشار خون دیاستولیک";
+"str_min_bp_dp" = "حداقل فشار خون دیاستولیک";
+"str_avg_bp_sp" = "میانگین فشار خون سیستولیک";
+"str_avg_bp_dp" = "میانگین فشار خون دیاستولیک";
+"str_perface_bp_sp" = "فشار خون سیستولیک ایده آل";
+"str_perface_bp_dp" = "فشار خون دیاستولیک ایده آل";
+"str_normal_bp_sp" = "فشار خون سیستولیک طبیعی";
+"str_normal_bp_dp" = "فشار خون دیاستولیک طبیعی";
+"str_day_avg_bp" = "میانگین فشار خون روزانه";
+"str_bp_description" = "داده های فشار خون فقط به عنوان مرجعی برای مقادیر سلامتی استفاده می شود، لطفاً از آن برای اهداف پزشکی استفاده نکنید.";
+
+"str_current_bo" = "اکسیژن فعلی خون";
+"str_avg_bo" = "میانگین اکسیژن خون";
+"str_max_bo" = "حداکثر اکسیژن خون";
+"str_min_bo" = "حداقل اکسیژن خون";
+"str_normal_bo_range" = "محدوده طبیعی اکسیژن خون";
+"str_light_bo" = "هیپوکسی نور";
+"str_middle_bo" = "هیپوکسی متوسط";
+"str_weight_bo" = "هیپوکسی شدید";
+"str_day_avg_bo" = "میانگین اکسیژن خون";
+"str_bo_description" = "داده های اکسیژن خون تنها به عنوان مرجعی برای مقادیر سلامتی استفاده می شود، لطفاً از آن برای اهداف پزشکی استفاده نکنید.";
+
+"str_current_bt" = "دمای فعلی بدن";
+"str_avg_bt" = "میانگین دمای بدن";
+"str_max_bt" = "حداکثر دمای بدن";
+"str_min_bt" = "حداقل دمای بدن";
+"str_normal_bt_range" = "محدوده دمای طبیعی بدن";
+"str_slow_bt" = "حرارت کم";
+"str_middle_bt" = "Bt وسط";
+"str_height_bt" = "حرارت زیاد";
+"str_day_avg_bt" = "متوسط ​​دمای بدن روزانه";
+"str_bt_description" = "داده های دمای بدن فقط به عنوان مرجعی برای مقادیر سلامتی استفاده می شود، لطفاً از آن برای اهداف پزشکی استفاده نکنید.";
+
+"str_sport_record" = "رکورد ورزشی";
+"str_cancel" = "لغو کنید";
+"str_sure" = "مطمئن";
+"str_disconnect_tips" = "دستگاه بسته شده است، آیا می خواهید دستگاه را قطع کنید؟";
+"str_unbind" = "باز کردن دستگاه";
+"str_bind" = "پیوند دستگاه";
+"str_device_scan" = "اسکن دستگاه";
+"str_device_connecting" = "در حال اتصال";
+"str_device_unbind_tips" = "آیا مطمئن هستید که دستگاه را باز می کنید؟";
+"str_connecting" = "در حال اتصال";
+"str_recover" = "بازیابی تنظیمات کارخانه";
+"str_cancel_search_device" = "آیا می خواهید جستجوی تلفن های همراه را متوقف کنید؟";
+"str_bind_success" = "پیوند موفقیت آمیز";
+"str_bind_fail" = "پیوند انجام نشد، لطفا دوباره امتحان کنید";
+"str_device_bound_to_other_tips" = "برای دستگاه متصل، لطفاً تنظیمات کارخانه را بازیابی کنید یا از حالت اتصال خارج کنید و سپس دوباره متصل کنید.";
+"str_device_others_binded_tips" = "دستگاه توسط کاربران دیگر بسته شده است، لطفا ابتدا اتصال را باز کنید یا دستگاه را به تنظیمات کارخانه بازنشانی کنید!";
+"str_device_restore_tips" = "دستگاه به تنظیمات کارخانه بازیابی شده است، لطفاً دستگاه را مجدداً باند کنید!";
+"str_device_binding" = "صحافی";
+
+"str_replace" = "تعویض";
+"str_clear" = "پاک کردن";
+"str_save" = "ذخیره";
+"str_save_success" = "با موفقیت ذخیره شد";
+"str_save_fail" = "ذخیره نشد";
+
+"str_alarm_add" = "افزودن زنگ هشدار";
+"str_repeat" = "تکرار";
+"str_no_repeat" = "بدون تکرار";
+"str_every_day" = "هر روز";
+"str_tag" = "برچسب";
+"str_please_input_tags" = "لطفا برچسب ها را وارد کنید";
+"str_hr_rate" = "نرخ تست";
+"str_start_time" = "زمان شروع";
+"str_end_time" = "زمان پایان";
+"str_warn_rate" = "نرخ هشدار";
+"str_device_recovery_tips" = "این عملیات دستگاه را باز می کند، آیا مطمئن هستید که تنظیمات کارخانه را بازیابی می کنید؟";
+"str_vibration" = "ارتعاش";
+"str_bright" = "صفحه نمایش روشن";
+
+"str_monday" = "دوشنبه";
+"str_tuesday" = "سه شنبه";
+"str_wednesday" = "چهارشنبه";
+"str_thursday" = "پنجشنبه";
+"str_friday" = "جمعه";
+"str_saturday" = "شنبه";
+"str_sunday" = "یکشنبه";
+
+"str_recommend" = "پیشنهاد";
+"str_dialo_hot" = "داغ ترین";
+"str_dial_new" = "جدیدترین";
+"str_dial_mine" = "شماره گیری من";
+"str_install" = "نصب";
+"str_installed" = "نصب شده";
+"str_dial_free" = "رایگان";
+"str_installing" = "نصب";
+"str_dial_un_install" = "حذف نصب";
+"str_dial_custom" = "شماره گیری سفارشی";
+"str_dial_custom_tips" = "شماره گیری خود را با توجه به ترجیحات شخصی خود ایجاد کنید.";
+"str_dial_detail" = "جزئیات شماره گیری";
+"str_notes" = "یادداشت:";
+"str_notes_dial" = "در طول مراحل نصب شماره گیری، لطفاً از این صفحه خارج نشوید، لطفاً از تلفن یا ساعت خود استفاده نکنید، مطمئن شوید که نصب کامل شده است!";
+"str_notes_ota" = "در طول فرآیند به روز رسانی سیستم عامل، لطفاً این صفحه را ترک نکنید، لطفاً از تلفن یا ساعت خود استفاده نکنید، مطمئن شوید که به روز رسانی کامل شده است!";
+
+"str_sport_detail" = "جزئیات ورزشی";
+"str_pace" = "سرعت";
+"str_avg_pace" = "سرعت متوسط";
+"str_max_pace" = "حداکثر سرعت";
+"str_min_pace" = "حداقل سرعت";
+"str_step_pace" = "سرعت گام";
+"str_avg_step_pace" = "میانگین سرعت گام";
+"str_max_step_pace" = "حداکثر سرعت گام";
+"str_min_step_pace" = "حداقل سرعت قدم";
+
+"str_user_protocol_tips" = "ما به شما کمک خواهیم کرد تا بفهمید چگونه اطلاعات شخصی و حقوق مرتبط شما را طبق توافقنامه کاربر و خط‌مشی رازداری جمع‌آوری و ذخیره می‌کنیم. مجوز، ما اطلاعات شما را به هیچ شخص ثالثی به اشتراک نمی گذاریم یا ارائه نمی دهیم. شما می توانید به اطلاعات شخصی خود دسترسی داشته باشید، تغییر دهید، حذف کنید یا مجوز خود را مدیریت کنید، و همچنین راهی برای لغو یا تغییر حساب شما ارائه خواهیم کرد.";
+"str_welcome_use" = "به Muslim Watch خوش آمدید";
+"str_protocol_read_tips" = "پس از خواندن، لطفاً روی دکمه موافقت زیر کلیک کنید تا وارد برنامه شوید";
+"str_please_read" = "لطفا بخوانید";
+"str_refuse" = "رد کردن";
+"str_sure_enter" = "موافق و وارد کنید";
+"str_pass" = "پرش";
+"str_login" = "ورود";
+"str_register" = "ثبت نام";
+"str_account" = "حساب";
+"str_password" = "رمز عبور";
+"str_password_old" = "رمز عبور قدیمی";
+"str_password_new" = "رمز عبور جدید";
+"str_forget_pw" = "فراموش کردن رمز عبور";
+"str_has_not_account" = "اکانت ندارید؟";
+"str_go" = "برو";
+"str_other_login" = "سایر روش های ورود به سیستم";
+"str_has_account" = "حساب دارد,";
+"str_password_again" = "تأیید رمز عبور";
+"str_verification_code" = "کد تایید";
+"str_verification_code_rec" = "دریافت کد تایید";
+"str_phone" = "شماره تلفن همراه";
+
+"str_nick" = "نیک";
+"str_user_avatar" = "آواتار";
+"str_sex" = "سکس";
+"str_birthday" = "تولد";
+"str_height" = "ارتفاع";
+"str_weight" = "وزن";
+
+"str_user_protocol" = "پروتکل کاربر";
+"str_privacy_policy" = "سیاست حفظ حریم خصوصی";
+"str_about_help" = "کمک";
+"str_account_safe" = "حساب و ایمن";
+"str_unit" = "واحد";
+"str_unit_metric" = "متریک";
+"str_unit_imperial" = "امپریال";
+"str_clear_cache" = "پاک کردن حافظه پنهان";
+"str_privacy_safe" = "ایمن حریم خصوصی";
+"str_your_question" = "لطفاً سوال خود را شرح دهید...";
+"str_app_log" = "آپلود گزارش های برنامه برای کمک به ما در یافتن و بهینه سازی مشکلات.";
+"str_device_log" = "آپلود گزارش های دستگاه برای کمک به ما در یافتن و بهینه سازی مشکلات دستگاه.";
+"str_contact" = "تماس";
+"str_phone_email" = "تلفن یا ایمیل شما";
+"str_commit_feedback" = "ارسال بازخورد";
+"str_man" = "مرد";
+"str_woman" = "مونث";
+
+"str_account_bind" = "پیوند حساب";
+"str_account_cancel" = "لغو حساب";
+"str_update_pw" = "تغییر رمز عبور";
+"str_login_out" = "خروج";
+"str_account_current" = "حساب جاری:";
+"str_sync_person" = "همگام سازی اطلاعات شخصی با ابر";
+"str_sync_sport" = "همگام سازی داده های ورزشی با ابر";
+"str_sync_health" = "همگام سازی داده های سلامت با ابر";
+"str_clear_data" = "پاک کردن تمام داده های ابری";
+"str_temp" = "دما";
+"str_temp_centigrade" = "℃";
+"str_temp_fahrenheit" = "℉";
+"str_album" = "آلبوم";
+"pull_to_refresh" = "کشش برای تازه کردن";
+"syncing" = "بازسازی";
+"str_sync_success" = "بازسازی با موفقیت";
+"str_load_more" = "بارگیری بیشتر";
+"str_ota_info" = "اطلاعات به روز رسانی";
+"str_device_scan_qrcode" = "اسکن دستگاه";
+"str_edit" = "ویرایش";
+"str_please_input_legal_account" = "لطفا یک حساب قانونی وارد کنید!";
+"str_please_input_legal_pw" = "لطفا یک رمز عبور با 6 تا 16 رقم و حروف وارد کنید";
+"str_unset" = "تنظیم نشده";
+
+"str_deep_sleep" = "خواب عمیق";
+"str_light_sleep" = "خواب سبک";
+"str_wake_up" = "بیدار شو";
+"str_sp" = "فشار خون سیستولیک";
+"str_dp" = "فشار خون دیاستولیک";
+
+"str_reset_pw_fail" = "تغییر رمز عبور ناموفق بود، لطفا دوباره امتحان کنید";
+"str_reset_pw_success" = "گذرواژه با موفقیت تغییر کرد، لطفا دوباره وارد شوید";
+"str_please_input_opw" = "لطفا رمز عبور قدیمی خود را وارد کنید";
+"str_please_input_npw" = "لطفا یک رمز عبور جدید وارد کنید";
+"str_update_user_info_fail" = "اطلاعات کاربر به روز نشد، لطفا دوباره امتحان کنید";
+"str_network_unconnect" = "شبکه متصل نیست";
+"str_network_error" = "خطای شبکه، لطفا دوباره امتحان کنید";
+"str_account_not_exist_login" = "اکانت وجود ندارد، لطفا دوباره وارد شوید";
+"str_login_overdue" = "ورود به سیستم منقضی شده است، لطفا دوباره وارد شوید";
+"str_account_pw_error" = "خطای حساب یا رمز عبور";
+"str_account_exist" = "حساب از قبل وجود دارد";
+"str_old_pw_error" = "رمز عبور قدیمی اشتباه است";
+"str_verify_error" = "خطای کد تایید، لطفا دوباره امتحان کنید";
+"str_verify_overdue" = "کد تایید منقضی شده است، لطفا دوباره امتحان کنید";
+"str_verify_code_fail" = "کد تایید نشد، لطفا دوباره امتحان کنید";
+"str_account_not_exist" = "اکانت وجود ندارد، لطفا دوباره امتحان کنید";
+"str_pw_diff" = "دو ورودی رمز عبور متناقض هستند";
+"str_register_fail" = "ثبت نام شکست خورد، لطفا دوباره امتحان کنید";
+"str_register_success" = "ثبت نام با موفقیت انجام شد";
+"str_please_input_legal_verify" = "لطفا یک کد تایید 4 رقمی وارد کنید";
+"str_clear_cache_tips" = "آیا مطمئن هستید که کش را حذف می کنید؟";
+"str_clear_cache_success" = "پاک کردن کش با موفقیت انجام شد";
+"str_no_cache" = "در حال حاضر حافظه پنهان وجود ندارد";
+"str_connected" = "متصل شد";
+"str_disconnected" = "قطع";
+"str_login_fail" = "ورود ناموفق بود، لطفا دوباره امتحان کنید";
+"str_del_acc_fai" = "خروج از حساب انجام نشد، لطفا دوباره امتحان کنید";
+"str_bind_account_fail" = "پیوند حساب انجام نشد، لطفا دوباره امتحان کنید";
+"str_back_desktop_tips" = "برای خروج از Muslim Watch دوباره فشار دهید";
+
+"str_count" = "بار";
+"str_times_min" = "زمان/دقیقه";
+"str_no_data" = "هنوز داده ای وجود ندارد";
+"str_mins" = "دقیقه";
+
+"str_second" = "دوم";
+"str_contact_person" = "شخص تماس";
+"str_alarm_exist" = "زنگ از قبل وجود دارد";
+"str_max_alarm_count" = "حداکثر 5 آلارم اضافه کنید";
+"str_max_contact_count" = "حداکثر 20 مخاطب اضافه کنید";
+
+"str_select_all" = "انتخاب همه";
+"str_call" = "تماس";
+"str_sms" = "پیامک";
+"str_qq" = "QQ";
+"str_wechat" = "وی چت";
+"str_whatsapp" = "واتس اپ";
+"str_messenger" = "پیام رسان";
+"str_twitter" = "تویتر";
+"str_e_wechat" = "وی چت سازمانی";
+"str_dingding" = "دینگ";
+"str_email" = "ایمیل";
+"str_calendar" = "تقویم";
+"str_viber" = "وایبر";
+"str_skype" = "اسکایپ";
+"str_kakaotalk" = "کاکاوتالک";
+"str_tumblr" = "Tumblr";
+"str_snapchat" = "Snapchat";
+"str_youtube" = "Youtube";
+"str_pinterset" = "Pinterset";
+"str_tiktok" = "تیکتوک";
+"str_gmail" = "جی-میل";
+"str_other" = "دیگر";
+"str_facebook" = "فیس بوک";
+"str_linkedin" = "لینکدین";
+"str_instagram" = "اینستاگرام";
+"str_line" = "خط";
+
+"str_ota_start" = "شروع ارتقاء";
+"str_ota_restart" = "راه اندازی مجدد";
+"str_ota_current_version" = "نسخه سیستم عامل فعلی:";
+"str_ota_version" = "نسخه سیستم عامل:";
+"str_ota_filesize" = "اندازه سیستم عامل:";
+"str_ota_update_message" = "به روز رسانی پیام:";
+"str_bluetooth_poweroff" = "لطفا بلوتوث گوشی خود را روشن کنید";
+"str_search_qrcode_error" = "خطای Qrcode";
+"str_connect_fail" = "اتصال ناموفق بود";
+"str_device_disconnected" = "دستگاه قطع شد";
+"str_search_qrcode_tips" = "کد/بارکد QR را در کادر قرار دهید تا به طور خودکار اسکن شود";
+"str_clear_alarm_tips" = "آیا مطمئن هستید که می خواهید زنگ هشدار را حذف کنید؟";
+"str_delete" = "حذف";
+"str_please_input_person" = "لطفا یک نفر را وارد کنید";
+"str_please_input_contact" = "لطفا اطلاعات تماس را وارد کنید";
+
+"str_camera_permission_title" = "مجوز دوربین فعال نیست";
+"str_camera_permission_message" = "می توانید در \"Settings-->Muslim Watch\" تنظیم کنید تا مجوزهای دوربین را مجاز کنید";
+"str_location_permission_title" = "مجوز مکان فعال نیست";
+"str_location_permission_message" = "شما می توانید آن را در تنظیمات-->Muslim Watch تنظیم کنید تا اجازه استفاده از مجوزهای مکان را بدهد";
+"str_omit_device_message" = "برای اطمینان از اتصال عادی دستگاه دفعه بعد،\nلطفاً به \"Settings>Bluetooth\" بروید تا این دستگاه را نادیده بگیرید";
+"str_signout_message" = "آیا مطمئن هستید که می خواهید از سیستم خارج شوید؟";
+"str_sport_end_message" = "آیا مطمئن هستید که می خواهید ورزش را پایان دهید؟";
+"str_sport_end_nodata_message" = "فاصله تمرین کافی نیست، آیا مطمئن هستید که تمرین فعلی را رها می کنید؟";
+"str_contact_permission_title" = "مجوز تماس فعال نیست";
+"str_contact_permission_message" = "شما می توانید \"Settings-->Muslim Watch\" را برای اجازه استفاده از مجوزهای دفترچه آدرس تنظیم کنید";
+
+"str_check_app_version" = "نسخه جدید را بررسی کنید";
+"str_longpress_unlock" = "فشار طولانی برای باز کردن قفل";
+"str_longpress_end" = "پایان فشار طولانی";
+"str_click_continue" = "برای ادامه کلیک کنید";
+"str_time_goal_reached" = "تبریک، زمان تمرین به هدف رسید!";
+"str_distance_goal_reached" = "تبریک، مسافت تمرین به هدف رسید!";
+"str_calorie_goal_reached" = "تبریک می‌گویم، به هدف کالری تمرینی شما رسیده‌اید!";
+"str_vibration_settings" = "تنظیمات لرزش";
+"str_screen_always_on" = "صفحه نمایش همیشه روشن";
+"str_always_bright" = "همیشه روشن";
+"str_auto_pause" = "مکث خودکار";
+"str_upgrading" = "در حال ارتقاء";
+"str_upgrade_success" = "ارتقا با موفقیت انجام شد";
+"str_upgrade_fail" = "ارتقا انجام نشد";
+"str_binding" = "صحافی";
+"str_device_restart" = "راه اندازی مجدد دستگاه";
+"str_device_shutdown" = "خاموش شدن دستگاه";
+"str_device_restart_tips" = "آیا مطمئن هستید که می خواهید دستگاه را مجددا راه اندازی کنید؟";
+"str_device_shutdown_tips" = "آیا مطمئن هستید که می خواهید دستگاه را خاموش کنید؟";
+"str_join_me" = "کد QR بالا را بشناسید، به من بپیوندید";
+"str_questions_and_suggestions" = "سوالات و پیشنهادات";
+"str_contact_details" = "جزئیات تماس";
+"str_submit_feedback" = "ارسال بازخورد";
+"str_is_latest_version" = "آخرین نسخه است";
+"str_new_version_found" = "نسخه جدید پیدا شد، آیا می خواهید به روز کنید؟";
+"str_please_open_camera" = "لطفا سوئیچ دوربین را باز کنید!";
+"str_do_not_disturb_allday" = "تمام روز مزاحم نشوید";
+"str_do_not_disturb_timing" = "زمان بندی مزاحم نشوید";
+"str_wechat_do_not_installed" = "شما برنامه WeChat را نصب نکرده اید، لطفا ابتدا آن را نصب کنید";
+"str_cloud_data_clear" = "آیا مطمئن هستید که همه داده های ابری را پاک می کنید؟";
+"str_feedback_success" = "بازخورد موفقیت آمیز";
+"str_feedback_fail" = "بازخورد انجام نشد";
+
+"str_reinstall" = "نصب مجدد";
+"str_select_picture_please" = "لطفا یک عکس را انتخاب کنید";
+"str_up_and_down_same_tips" = "تابع بالا و تابع زیر نمی توانند یکسان باشند";
+"str_select_picture" = "انتخاب تصویر";
+"str_restore_default" = "بازیابی پیش فرض";
+"str_time_position" = "موقعیت زمانی";
+"str_time_up" = "تابع بالا";
+"str_time_down" = "عملکرد پایین";
+"str_text_color" = "رنگ متن";
+"str_picture_brightness" = "روشنایی تصویر";
+"str_upper" = "بالا";
+"str_below" = "زیر";
+"str_nothing" = "هیچی";
+"str_date" = "تاریخ";
+"str_contact_already_exists" = "تماس از قبل وجود دارد";
+"str_bluetooth_permission_message" = "لطفا تنظیمات-->بلوتوث را باز کنید، پیدا کنید و متصل شوید";
+"str_dial_restore_tips" = "آیا مطمئن هستید که پیش فرض را بازیابی می کنید؟";
+"str_installed_count" = "%ld نفر نصب کرده اند";
+"str_unbinding_failed" = "بازسازی انجام نشد";
+"str_disconnect_unbinding_tips" = "دستگاه متصل نیست. اگر حساب را برای اتصال این دستگاه تغییر دهید، لطفاً تنظیمات کارخانه را روی دستگاه بازیابی کنید.";
+"str_medical_tips" = "لطفا توجه داشته باشید که این ویژگی برای مصارف پزشکی طراحی نشده است. اگر سوال یا نگرانی پزشکی دارید، لطفا با یک متخصص مراقبت های بهداشتی مشورت کنید.";
+
+"str_drop_down_refresh" = "برای تازه کردن، پایین بیاورید";
+"str_refreshing" = "بازسازی";
+"str_release_refresh_now" = "اکنون برای بازخوانی رها کنید";
+"str_pull_up_to_load_more" = "برای بارگیری بیشتر بالا بکشید";
+"str_loading" = "در حال بارگیری";
+"str_release_load_now" = "اکنون رها کنید تا بارگیری شود";
+"str_no_more_data" = "داده ای دیگر وجود ندارد";
+"str_no_disturb_tips" = "هنگامی که حالت مزاحم نشوید روشن است، تماس های دریافتی و اعلان ها یادآوری نمی شوند (به جز ساعت زنگ دار)";
+"str_load_failed" = "بارگیری نشد";
+"str_refresh_failed" = "بازسازی انجام نشد";
+
+"str_menstrual_cycle_reminder" = "یادآوری سیکل قاعدگی";
+"str_cycle_days" = "روزهای چرخه";
+"str_menstrual_days" = "تعداد روزهای قاعدگی";
+"str_menstrual_last_time" = "زمان شروع آخرین قاعدگی";
+"str_remind_time" = "زمان یادآوری";
+"str_remind_menstrual_period" = "یادآوری قاعدگی";
+"str_remind_ovulation_period" = "یادآوری دوره تخمک گذاری";
+"str_remind_ovulation_peak" = "یادآور اوج تخمک گذاری";
+"str_remind_ovulation_end" = "یادآوری پایان تخمک گذاری";
+
+"str_clear_data_success" = "پاک کردن موفقیت آمیز داده ها";
+"str_clear_data_failed" = "پاک کردن انجام نشد";
+"str_delete_failed" = "حذف نشد";
+
+"str_tab_free_exercise" = "ورزش رایگان";
+"str_tab_ballet" = "باله";
+"str_tab_golf" = "گلف";
+"str_tab_square_dance" = "رقص مربع";
+"str_tab_baseball" = "بیسبال";
+"str_tab_rugby" = "فوتبال";
+"str_tab_poppy_jump" = "بابی پرش";
+"str_tab_elliptical_machine" = "دستگاه بیضوی";
+"str_tab_fitness" = "تناسب اندام";
+"str_tab_kayak" = "کایاک";
+"str_tab_on_foot" = "پیاده";
+"str_tab_snow_sports" = "ورزشهای آبی";
+"str_tab_paddle_board" = "تخته دست و پا زدن";
+"str_tab_pilates" = "پیلاتس";
+"str_tab_roller_skating" = "اسکیت";
+"str_tab_boating" = "دستگاه قایق رانی";
+"str_tab_sailboat" = "قایق بادبانی";
+"str_tab_skateboard" = "اسکیت برد";
+"str_tab_stretch" = "کشش دادن";
+"str_tab_water_polo" = "واترپلو";
+
+
+"str_jl_Running" = "در حال اجرا";
+"str_jl_Treadmill" = "تردمیل";
+"str_jl_Outdoorrunning" = "دویدن در فضای باز";
+"str_jl_Cycling" = "سواری";
+"str_jl_Swim" = "شنا کردن";
+"str_jl_Walking" = "پیاده روی";
+"str_jl_Climbing" = "کوهنوردی";
+"str_jl_Yoga" = "یوگا";
+"str_jl_Spinning" = "دوچرخه چرخان";
+"str_jl_Basketball" = "بسکتبال";
+"str_jl_Football" = "فوتبال";
+"str_jl_Badminton" = "بدمینتون";
+"str_jl_Marathon" = "ماراتن";
+"str_jl_Indoorwalking" = "پیاده روی در فضای داخلی";
+"str_jl_Freemovement" = "ورزش رایگان";
+"str_jl_run_22" = "دو و میدانی";
+"str_jl_Strengthtraining" = "تربیت بدنی";
+"str_jl_Weightlifting" = "وزنه برداری";
+"str_jl_Boxing" = "بوکس";
+"str_jl_Jumprope" = "طناب بازی";
+"str_jl_StairClimbing" = "بالا رفتن از پله";
+"str_jl_Ski" = "اسکی";
+"str_jl_Skate" = "اسکیت";
+"str_jl_Rollerskating" = "اسکیت";
+"str_jl_run_31" = "دوچرخه سواری در فضای داخلی";
+"str_jl_Hulahoop" = "هولا هوپ";
+"str_jl_Golf" = "گلف";
+"str_jl_Beyzbol" = "بیسبال";
+"str_jl_Dance" = "رقصیدن";
+"str_jl_Pingpong" = "پینگ پونگ";
+"str_jl_Hockey" = "هاکی";
+"str_jl_Pilates" = "پیلاتس";
+"str_jl_Taekwondo" = "تکواندو";
+"str_jl_Handball" = "هندبال";
+"str_jl_run_41" = "هیپ هاپ";
+"str_jl_Volleyball" = "والیبال";
+"str_jl_Tennis" = "تنیس";
+"str_jl_Darts" = "دارت";
+"str_jl_Gymnastics" = "ژیمناستیک";
+"str_jl_Steps" = "قدم بردار";
+"str_jl_Ellipticalmachine" = "دستگاه بیضوی";
+"str_jl_Zumba" = "زومبا";
+"str_jl_Cricket" = "کریکت";
+"str_jl_Travelbywalking" = "با پیاده روی سفر کنید";
+"str_jl_Aerobicexercise" = "ورزش هوازی";
+"str_jl_Rowingmachine" = "دستگاه قایق رانی";
+"str_jl_Rugby" = "فوتبال";
+"str_jl_run_54" = "دراز و نشست";
+"str_jl_Dumbbells" = "دمبل";
+"str_jl_Bodybuilding" = "ایروبیک";
+"str_jl_Karate" = "کاراته";
+"str_jl_Fencing" = "شمشیربازی";
+"str_jl_Martialarts" = "هنرهای رزمی";
+"str_jl_TaiChi" = "تایچی";
+"str_jl_Frisbee" = "بشقاب پرنده";
+"str_jl_Archery" = "تیراندازی با کمان";
+"str_jl_Horseriding" = "اسب سواری";
+"str_jl_Bowling" = "بولینگ";
+"str_jl_Surf" = "موج سواری";
+"str_jl_Softball" = "سافت بال";
+"str_jl_Squash" = "اسکواش";
+"str_jl_Sailboat" = "قایق بادبانی";
+"str_jl_Pullup" = "کشش";
+"str_jl_Skateboard" = "اسکیت برد";
+"str_jl_Trampoline" = "ترامپولین";
+"str_jl_Fishing" = "صید ماهی";
+"str_jl_Poledancing" = "رقص میله";
+"str_jl_Squaredance" = "رقص مربع";
+"str_jl_Jazz" = "جاز";
+"str_jl_Ballet" = "باله";
+"str_jl_Disco" = "دیسکو";
+"str_jl_Tapdance" = "رقص شیر";
+"str_jl_Moderndance" = "رقص مدرن";
+"str_jl_Pushups" = "فشار دادن";
+"str_jl_Scooter" = "اسکوتر";
+"str_jl_Plank" = "تخته";
+"str_jl_Billiards" = "بیلیارد";
+"str_jl_Rockclimbing" = "صخره نوردی";
+"str_jl_DiscusThrow" = "دیسک";
+"str_jl_HorseRacing" = "نژاد";
+"str_jl_Wrestling" = "کشتی";
+"str_jl_Highjump" = "پرش بلند";
+"str_jl_Parachute" = "چتر نجات";
+"str_jl_Shotput" = "پرتاب";
+"str_jl_Longjump" = "پرش بلند";
+"str_jl_Javelinthrow" = "نیزه";
+"str_jl_Hammer" = "پرتاب چکش";
+"str_jl_Squat" = "اسکات";
+"str_jl_Legpress" = "پرس پا";
+"str_jl_run_96" = "دوچرخه آفرود";
+"str_jl_Motocross" = "موتور کراس";
+"str_jl_Rowing" = "قایقرانی";
+"str_jl_Crossfit" = "کراس فیت";
+"str_jl_Waterbike" = "دوچرخه آبی";
+"str_jl_Kayak" = "کایاک";
+"str_jl_Croquet" = "کروکت";
+"str_jl_Floorball" = "توپ کف";
+"str_jl_MuayThai" = "موی تای";
+"str_jl_Jaiball" = "جای علی";
+"str_jl_run_106" = "تنیس (دو نفره)";
+"str_jl_Backtraining" = "تمرین پشت";
+"str_jl_Watervolleyball" = "والیبال آب";
+"str_jl_Waterskiing" = "اسکی روی آب";
+"str_jl_Mountainclimber" = "دستگاه کوهنوردی";
+"str_jl_HIIT" = "HIIT";
+"str_jl_BODYCOMBAT" = "مبارزه با بدن";
+"str_jl_BODYBALANCE" = "تعادل بدن";
+"str_jl_TRX" = "تمرین مقاومتی کامل بدن";
+"str_jl_TaeBo" = "تکواندو";
+"str_jl_run_116" = "BMX";
+"str_jl_run_117" = "کش آمدن";
+"str_jl_run_118" = "تناسب اندام داخل سالن";
+"str_jl_run_119" = "آموزش انعطاف پذیری";
+"str_jl_run_120" = "تمرین بالاتنه";
+"str_jl_run_121" = "تمرین پایین تنه";
+"str_jl_run_122" = "ورزش کف";
+"str_jl_run_123" = "آموزش هالتر";
+"str_jl_run_124" = "تربیت بدنی";
+"str_jl_run_125" = "ددلیفت";
+"str_jl_run_126" = "بورپی";
+"str_jl_run_127" = "آموزش عملکردی";
+"str_jl_run_128" = "آموزش دور کمر و شکم";
+"str_jl_run_129" = "فوتبال روی میز";
+"str_jl_run_130" = "شکار";
+"str_jl_run_131" = "ایستادن پارو سواری";
+"str_jl_run_132" = "قایقرانی با کایاک";
+"str_jl_run_133" = "قایق موتوری";
+"str_jl_run_134" = "پارکور";
+"str_jl_run_135" = "ATV";
+"str_jl_run_136" = "پاراگلایدر";
+"str_jl_run_137" = "حلقه زدن";
+"str_jl_run_138" = "تخته اسکی";
+"str_jl_run_139" = "اسکی";
+"str_jl_run_140" = "اسکی آلپاین";
+"str_jl_run_141" = "اسکی کراس کانتری";
+"str_jl_run_142" = "ماشین برفی";
+"str_jl_run_143" = "ماشین برفی";
+"str_jl_run_144" = "سورتمه";
+"str_jl_run_145" = "اسکواش";
+"str_jl_run_146" = "جن";
+"str_jl_run_147" = "سپک تاکرو";
+"str_jl_run_148" = "واترپلو";
+"str_jl_run_149" = "رقص شکم";
+"str_jl_run_150" = "رقص کلاسیک که در سالنهایی مانند سالن اپرا اجرا میشود";
+"str_jl_run_151" = "رقص محلی";
+"str_jl_run_152" = "رقص لاتین";
+"str_jl_run_153" = "جودو";
+"str_jl_run_154" = "کیک بوکسینگ";
+"str_jl_run_155" = "بادبادک پرواز کن";
+"str_jl_run_156" = "مسابقه طناب کشی";
+"str_jl_run_157" = "خروس شاتل";
+"str_jl_run_158" = "کبادی";
+"str_jl_run_159" = "مسابقه";
+"str_jl_run_160" = "بازی سنگریزه";
+"str_jl_run_161" = "بازی تگ";
+"str_jl_Recommend" = "توصیه";
+"str_jl_Fitness" = "تناسب اندام";
+"str_jl_Leisure" = "اوقات فراغت";
+"str_jl_Athletics" = "رقابتی";
+"str_jl_Ball" = "توپ ها";
+"str_jl_Danceclass" = "رقص";
+"str_bloodsugar_title" = "قند خون";
+"str_current_bloodsugar" = "قند خون فعلی";
+"str_avg_bloodsugar" = "قند خون متوسط";
+"str_max_bloodsugar" = "حداکثر قند خون";
+"str_min_bloodsugar" = "حداقل قند خون";
+"str_normal_bloodsugar_range" = "مقدار مرجع علمی قند خون";
+"str_range_bloodsugar_1" = "قند خون ناشتا";
+"str_range_bloodsugar_2" = "قند خون قبل از غذا";
+"str_range_bloodsugar_3" = "قند خون بعد از غذا";
+"str_range_bloodsugar_4" = "قند خون قبل از خواب";
+"str_range_bloodsugar_5" = "قند خون صبح زود";
+"str_bloodsugar_description" = "داده های قند خون تنها به عنوان مرجعی برای مقادیر سلامتی استفاده می شود و نباید برای اهداف پزشکی استفاده شود.";
+"str_press_title" = "فشار";
+"str_current_press" = "فشار فعلی";
+"str_avg_press" = "فشار متوسط";
+"str_max_press" = "بزرگترین فشار";
+"str_min_press" = "حداقل فشار";
+"str_normal_press_range" = "آروم باش";
+"str_slow_press" = "طبیعی";
+"str_middle_press" = "متوسط";
+"str_height_press" = "بالا";
+"str_day_avg_press" = "فشار متوسط روزانه";
+"str_press_description" = "داده های فشار فقط به عنوان مرجعی برای مقادیر سلامتی استفاده می شود و نباید برای اهداف پزشکی استفاده شود.";
+"str_remind_unit_day" = "آسمان";
+"str_remind_unit_beforeday" = "روز قبل";
+
+
+//穆斯林新添加
+"str_quran" = "قرآن";
+
+/*  */
+"str_masbaha" = "تسبيح";
+
+/*  */
+"str_hesn" = "حسن المسلم";
+
+/*  */
+"str_compass" = "قطب نما";
+
+/*  */
+"str_prayer" = "وقت نماز";
+
+/*  */
+"str_fajr" = "الفجر";
+
+/*  */
+"str_dhuhr" = "الظهر";
+
+/*  */
+"str_asr" = "العصر";
+
+/*  */
+"str_maghreb" = "المغرب";
+
+/*  */
+"str_lsha" = "العشاء";
+
+/*  */
+"str_muslim" = "مسلمان";
+
+/*  */
+"str_north" = "شمال";
+
+/*  */
+"str_south" = "جنوب";
+
+/*  */
+"str_west" = "غرب";
+
+/*  */
+"str_east" = "شرق";
+
+/*  */
+"str_northwest" = "شمال غربی";
+
+/*  */
+"str_northeast" = "شمال شرقی";
+
+/*  */
+"str_southwest" = "جنوب غربی";
+
+/*  */
+"str_southeast" = "جنوب شرقی";
+
+/*  */
+"str_islamic" = "تقویم هجری";
+
+
+"str_jl_denx_sunrise" = "طلوع خورشید";
+"str_jl_denx_sunset" = "غروب";

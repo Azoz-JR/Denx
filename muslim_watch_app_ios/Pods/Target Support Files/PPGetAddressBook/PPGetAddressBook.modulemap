@@ -1,0 +1,6 @@
+framework module PPGetAddressBook {
+  umbrella header "PPGetAddressBook-umbrella.h"
+
+  export *
+  module * { export * }
+}

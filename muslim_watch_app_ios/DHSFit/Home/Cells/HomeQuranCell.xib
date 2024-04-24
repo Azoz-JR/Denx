@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeQuranCell" id="gTV-IL-0wX" customClass="HomeQuranCell">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="70"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="300" height="70"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sk1-2m-8JC">
+                        <rect key="frame" x="0.0" y="0.0" width="300" height="70"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="SJk-d3-det">
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="70"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jbq-fR-rA0">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="70"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="-16" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="home_quran_icon"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iyv-yi-zdn">
+                                        <rect key="frame" x="100" y="0.0" width="100" height="70"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="-16" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="home_quran_say"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DWh-HR-e47">
+                                        <rect key="frame" x="200" y="0.0" width="100" height="70"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="-16" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="home_quran_counter"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="kSB-wz-UwI">
+                                <rect key="frame" x="0.0" y="42" width="300" height="23"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="古兰经" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="col-ah-pux">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="23"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                                        <color key="textColor" name="D_#3D3D3D"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名人名言" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e4u-kW-A3Y">
+                                        <rect key="frame" x="100" y="0.0" width="100" height="23"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                                        <color key="textColor" name="D_#3D3D3D"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="念珠" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ey0-Lu-4r3">
+                                        <rect key="frame" x="200" y="0.0" width="100" height="23"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                                        <color key="textColor" name="D_#3D3D3D"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="23" id="LcG-CA-BnU"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" name="D_#FEFEFE"/>
+                        <constraints>
+                            <constraint firstItem="SJk-d3-det" firstAttribute="leading" secondItem="Sk1-2m-8JC" secondAttribute="leading" id="BbZ-ix-n2K"/>
+                            <constraint firstItem="SJk-d3-det" firstAttribute="top" secondItem="Sk1-2m-8JC" secondAttribute="top" id="dVB-na-ALe"/>
+                            <constraint firstItem="kSB-wz-UwI" firstAttribute="leading" secondItem="Sk1-2m-8JC" secondAttribute="leading" id="e8A-W4-aeo"/>
+                            <constraint firstAttribute="bottom" secondItem="SJk-d3-det" secondAttribute="bottom" id="em8-vO-psb"/>
+                            <constraint firstAttribute="trailing" secondItem="SJk-d3-det" secondAttribute="trailing" id="grh-bq-KvN"/>
+                            <constraint firstAttribute="bottom" secondItem="kSB-wz-UwI" secondAttribute="bottom" constant="5" id="lQg-ZF-Ftd"/>
+                            <constraint firstAttribute="trailing" secondItem="kSB-wz-UwI" secondAttribute="trailing" id="mH2-lg-XgW"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" name="D_#F1F2F0"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Sk1-2m-8JC" secondAttribute="bottom" id="51T-zd-zC7"/>
+                <constraint firstAttribute="trailing" secondItem="Sk1-2m-8JC" secondAttribute="trailing" id="fmh-jO-0Qn"/>
+                <constraint firstItem="Sk1-2m-8JC" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="nv2-qr-NOK"/>
+                <constraint firstItem="Sk1-2m-8JC" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="sX3-Y6-U45"/>
+            </constraints>
+            <connections>
+                <outlet property="bgView" destination="Sk1-2m-8JC" id="OTP-V0-DnA"/>
+                <outlet property="homeCounterButton" destination="DWh-HR-e47" id="2gE-ZR-jIb"/>
+                <outlet property="homeQuranButton" destination="jbq-fR-rA0" id="Prb-CI-RcY"/>
+                <outlet property="homeSayButton" destination="Iyv-yi-zdn" id="m5s-2m-KKc"/>
+            </connections>
+            <point key="canvasLocation" x="48.854961832061065" y="-11.267605633802818"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="home_quran_counter" width="51.666667938232422" height="51.666667938232422"/>
+        <image name="home_quran_icon" width="51.666667938232422" height="51.666667938232422"/>
+        <image name="home_quran_say" width="51.666667938232422" height="51.666667938232422"/>
+        <namedColor name="D_#3D3D3D">
+            <color red="0.23921568627450981" green="0.23921568627450981" blue="0.23921568627450981" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="D_#F1F2F0">
+            <color red="0.94509803921568625" green="0.94901960784313721" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="D_#FEFEFE">
+            <color red="0.99607843137254903" green="0.99607843137254903" blue="0.99607843137254903" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

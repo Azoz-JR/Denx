@@ -1,0 +1,38 @@
+platform :ios, '14.0'
+use_frameworks!
+
+target 'MuslimFit' do
+  
+  pod 'SGQRCode', '~> 3.0.1'
+  pod 'PPGetAddressBook'
+  pod 'AMapLocation'
+  pod 'AMap2DMap'
+  #  pod 'TencentOpenAPI-Unofficial', '~> 3.3.0'
+  #  pod 'WechatOpenSDK'
+  #  pod 'TZImagePickerController'
+  pod 'BRPickerView'
+  pod 'HBDNavigationBar'
+  pod 'Texture'
+  pod 'Alamofire', "4.8.0"
+  pod 'FSCalendar'
+  pod 'Kingfisher'#, "5.15.8"
+#  pod 'SDWebImage'
+pod 'SwiftAudioEx', '~> 0.15.3'
+  
+  post_install do |installer|
+    installer.pods_project.frameworks_group["iOS"]["AssetsLibrary.framework"].remove_from_project
+    installer.pods_project.targets.each do |target|
+      target.build_configurations.each do |config|
+        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '15.0'
+        
+        installer.generated_projects.each do |project|
+          project.targets.each do |target|
+            target.build_configurations.each do |config|
+              config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'
+            end
+          end
+        end
+      end
+    end
+  end
+end

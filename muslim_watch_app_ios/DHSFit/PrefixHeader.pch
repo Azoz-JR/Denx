@@ -1,0 +1,343 @@
+//
+//  PrefixHeader.pch
+//  DHSFit
+//
+//  Created by DHS on 2022/5/30.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <DHFoundation/DHFoundation.h>
+#import <DHUIKit/DHUIKit.h>
+#import "DHBleSDK.h"
+
+#import <SGQRCode/SGQRCode.h>
+#import <PPGetAddressBook/PPGetAddressBook.h>
+#import <MAMapKit/MAMapKit.h>
+#import <AMapFoundationKit/AMapFoundationKit.h>
+#import <AMapLocationKit/AMapLocationKit.h>
+#import "UIViewController+HBD.h"
+
+//全局模型
+#import "ConfigureModel.h"
+
+//用户模型
+#import "UserModel.h"
+#import "VisitorModel.h"
+
+//设备模型
+#import "DeviceFuncModel.h"
+#import "DeviceModel.h"
+#import "AlarmSetModel.h"
+#import "PrayAlarmSetModel.h"
+#import "SedentarySetModel.h"
+#import "DrinkingSetModel.h"
+#import "ReminderModeSetModel.h"
+#import "GuestureSetModel.h"
+#import "BrightTimeSetModel.h"
+#import "HeartRateSetModel.h"
+#import "DisturbModeSetModel.h"
+#import "WeatherSetModel.h"
+#import "ContactSetModel.h"
+#import "BreathSetModel.h"
+#import "AncsSetModel.h"
+#import "DialMarketSetModel.h"
+#import "DialInfoSetModel.h"
+#import "LocalDialSetModel.h"
+#import "QRCodeSetModel.h"
+#import "SportGoalSetModel.h"
+#import "CustomDialSetModel.h"
+#import "MenstrualCycleSetModel.h"
+#import "OnlineFirmwareVersionModel.h"
+
+//健康数据模型
+#import "DailyStepModel.h"
+#import "DailySleepModel.h"
+#import "DailyHeartRateModel.h"
+#import "DailyBpModel.h"
+#import "DailyBoModel.h"
+#import "DailyTempModel.h"
+#import "DailyBreathModel.h"
+#import "DailySportModel.h"
+#import "DailyPressureModel.h"
+
+#import "RailModel.h"
+
+//BaseView
+#import "BaseView.h"
+#import "MWBaseTableCell.h"
+#import "BasePickerView.h"
+#import "BaseActionSheet.h"
+#import "BaseAlertView.h"
+#import "MWHtmlViewController.h"
+#import "BaseProgressView.h"
+
+//Manager
+#import "ChartViewModel.h"
+#import "NetworkManager.h"
+#import "AccountManager.h"
+#import "HealthDataManager.h"
+#import "RunningManager.h"
+#import "TimerManager.h"
+#import "LanguageManager.h"
+#import "LocationManager.h"
+#import "OnceLocationManager.h"
+#import "DHBluetoothManager.h"
+#import "HealthKitManager.h"
+#import "WeatherManager.h"
+#import "BaseTimeModel.h"
+
+//APP状态
+#define DHAppStatus [ConfigureModel shareInstance].appStatus
+//用户ID
+#define DHUserId [ConfigureModel shareInstance].userId
+//游客ID
+#define DHVisitorId [ConfigureModel shareInstance].visitorId
+//Mac地址
+#define DHMacAddr [ConfigureModel shareInstance].macAddr
+//时间戳差值
+#define DHTimeZoneInterval [ConfigureModel shareInstance].timeZoneInterval
+
+//表盘屏幕高度
+#define DHDialHeight [DHBluetoothManager shareInstance].dialInfoModel.screenHeight
+//表盘屏幕宽度
+#define DHDialWidth [DHBluetoothManager shareInstance].dialInfoModel.screenWidth
+//设备已连接
+#define DHDeviceConnected [DHBluetoothManager shareInstance].isConnected
+//设备已绑定
+#define DHDeviceBinded [DHBluetoothManager shareInstance].isBinded
+
+//通知中心
+#define DHNotificationCenter [NSNotificationCenter defaultCenter]
+//图片
+#define DHImage(imageName) [UIImage imageNamed:imageName]
+
+//非空判断
+#define DHIsNotEmpty(dict,key) [dict objectForKey:key] && ![[dict objectForKey:key] isKindOfClass:[NSNull class]]
+
+//隐私政策
+#define PrivacyPolicyUrl @"http://www.ruiwo168.com/privacyPolicy.html"
+//用户协议
+#define UserProtocolUrl @"http://www.ruiwo168.com/userProtocol.html"
+#define UserHelpUrl @"http://www.ruiwo168.com/help/help_zh.html"
+
+#define DHDialFolder @"CustomDial"
+#define DHAvatarFolder @"Avatar"
+#define DHOTAFolder @"OTA"
+
+//国际化
+#define Lang(key)   [LanguageManager langWithKey:key value:key]
+
+//是否英制距离
+#define ImperialUnit [ConfigureModel shareInstance].distanceUnit
+//是否英制温度
+#define FahrenheitUnit [ConfigureModel shareInstance].tempUnit
+
+//距离单位
+#define DistanceUnit [LanguageManager distanceUnit]
+//温度单位
+#define TempUnit [LanguageManager tempUnit]
+//身高单位
+#define HeightUnit [LanguageManager heightUnit]
+//体重单位
+#define WeightUnit [LanguageManager weightUnit]
+
+//小时单位
+#define HourUnit [LanguageManager hourUnit]
+//分钟单位
+#define MinuteUnit [LanguageManager minuteUnit]
+//卡路里单位
+#define CalorieUnit [LanguageManager calorieUnit]
+//心率单位
+#define HrUnit [LanguageManager hrUnit]
+//步数单位
+#define StepUnit [LanguageManager stepUnit]
+//血压单位
+#define BpUnit [LanguageManager bpUnit]
+//血氧单位
+#define BoUnit [LanguageManager boUnit]
+
+//距离转换
+#define KcalValue(a) [RunningManager kcalValue:a]
+//距离转换
+#define DistanceValue(a) [RunningManager distanceValue:a]
+//温度转换
+#define TempValue(a) [RunningManager tempValue:a]
+//身高转换
+#define HeightValue(a) [RunningManager heightValue:a]
+//体重转换
+#define WeightValue(a) [RunningManager weightValue:a]
+
+//颜色值
+#define COLOR(HEXSTR) [DHUIHelp colorWithHexString:HEXSTR]
+#define HEXColor(_hex_)  [DHUIHelp colorWithHexString:((__bridge NSString *)CFSTR(#_hex_))]
+#define COLORANDALPHA(HEXSTR, ALPHA) [DHUIHelp colorWithHexString:HEXSTR alpha:ALPHA]
+
+//黑色
+#define HomeColor_BackgroundColor [UIColor colorNamed:@"D_#F1F2F0"]
+//灰色
+#define HomeColor_BlockColor [UIColor colorNamed:@"D_#FEFEFE"]
+//蓝色
+#define HomeColor_MainColor [UIColor colorNamed:@"D_#FFD000"]
+//灰色
+#define HomeColor_DialColor COLOR(@"#45516C")
+
+//白色
+#define HomeColor_TitleColor [UIColor colorNamed:@"D_#3D3D3D"]
+//灰色
+#define HomeColor_SubTitleColor [UIColor colorNamed:@"D_#494A4C"]
+//白色
+#define HomeColor_ContentColor COLOR(@"#000000")
+//白色
+#define HomeColor_ButtonColor COLOR(@"#FFFFFF")
+
+//灰色
+#define HomeColor_ButtonNormal COLOR(@"#293040")
+//蓝色
+#define HomeColor_ButtonHighLight COLOR(@"#69D4E3")
+//灰色
+#define HomeColor_LineColor COLOR(@"#807777")
+//灰色
+#define HomeColor_PlaceholderColor COLOR(@"#AAAAAA")
+
+//大标题字体
+#define HomeFont_TitleFont [UIFont fontWithName:@"PingFangSC-Regular" size:16]
+//小标题字体
+#define HomeFont_SubTitleFont [UIFont fontWithName:@"PingFangSC-Regular" size:12]
+//内容字体
+#define HomeFont_ContentFont [UIFont fontWithName:@"PingFangSC-Regular" size:14]
+//按钮字体
+#define HomeFont_ButtonFont [UIFont fontWithName:@"PingFangSC-Medium" size:16]
+
+//普通字体
+#define HomeFont_Regular_8 [UIFont fontWithName:@"PingFangSC-Regular" size:8]
+#define HomeFont_Regular_10 [UIFont fontWithName:@"PingFangSC-Regular" size:10]
+#define HomeFont_Regular_22 [UIFont fontWithName:@"PingFangSC-Regular" size:22]
+
+//加粗字体
+#define HomeFont_Bold_20 [UIFont fontWithName:@"PingFangSC-Semibold" size:20]
+#define HomeFont_Bold_25 [UIFont fontWithName:@"PingFangSC-Semibold" size:25]
+#define HomeFont_Bold_30 [UIFont fontWithName:@"PingFangSC-Semibold" size:30]
+
+//控件间距
+#define HomeViewSpace_Left 15.0
+#define HomeViewSpace_Right 15.0
+#define HomeViewSpace_Vertical 10.0
+
+//屏幕高度
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+//屏幕宽度
+#define kScreenWidth  [UIScreen mainScreen].bounds.size.width
+//缩放比例
+#define kScreenScale [UIScreen mainScreen].scale
+
+//状态栏高度
+#define kStatusHeight [[UIApplication sharedApplication] statusBarFrame].size.height
+//导航栏高度
+#define kNavigationHeight 44.0
+//状态栏+导航栏高度
+#define kNavAndStatusHeight (kStatusHeight+kNavigationHeight)
+//底部菜单栏高度
+#define kTabBarHeight 49.0
+//是否刘海屏
+#define X_IS_iPhoneX        kStatusHeight > 20
+//底部安全高度
+#define kBottomHeight       (X_IS_iPhoneX ? 34.0f : 0.0f)
+
+#define WEAKSELF __weak typeof(self) weakSelf = self;
+
+//配置吐司
+#define SHOWINDETERMINATE [SVProgressHUD show];
+#define SHOWHUD(s) [SVProgressHUD showImage:[UIImage imageNamed:@"nil"] status:s];
+#define SHOWHUDNODISS(s) [SVProgressHUD showWithStatus:s];
+#define HUDDISS [SVProgressHUD dismiss];
+
+//解绑设备通知
+#define BluetoothNotificationAutoUnBindDevice @"BluetoothNotificationAutoUnBindDevice"
+//解绑设备通知
+#define BluetoothNotificationHandUnBindDevice @"BluetoothNotificationHandUnBindDevice"
+
+
+//设备连接状态变化
+#define BluetoothNotificationConnectStateChange @"BluetoothNotificationConnectStateChange"
+//设备信息变化
+#define BluetoothNotificationDeviceInfoChange @"BluetoothNotificationDeviceInfoChange"
+//电量信息变化
+#define BluetoothNotificationBatteryInfoChange @"BluetoothNotificationBatteryInfoChange"
+//设备功能表变化
+#define BluetoothNotificationDeviceFunctionChange @"BluetoothNotificationDeviceFunctionChange"
+//表盘信息变化
+#define BluetoothNotificationDialInfoChange @"BluetoothNotificationDialInfoChange"
+//健康数据下载完成
+#define BluetoothNotificationHealthDataDownloadCompleted @"BluetoothNotificationHealthDataDownloadCompleted"
+
+//打开拍照通知
+#define BluetoothNotificationCameraTurnOn @"BluetoothNotificationCameraTurnOn"
+//关闭拍照通知
+#define BluetoothNotificationCameraTurnOff @"BluetoothNotificationCameraTurnOff"
+//拍照通知
+#define BluetoothNotificationCameraTakePicture @"BluetoothNotificationCameraTakePicture"
+
+//开始寻找手机通知
+#define BluetoothNotificationFindPhoneStart @"BluetoothNotificationFindPhoneStart"
+//结束寻找手机通知
+#define BluetoothNotificationFindPhoneEnd @"BluetoothNotificationFindPhoneEnd"
+
+//杰里APP发起运动设备端点击继续
+#define BluetoothNotificationJLWorkoutContinue @"BluetoothNotificationJLWorkoutContinue"
+//杰里APP发起运动设备端点击暂停
+#define BluetoothNotificationJLWorkoutPause @"BluetoothNotificationJLWorkoutPause"
+//杰里APP发起运动设备端点击结束
+#define BluetoothNotificationJLWorkoutEnd @"BluetoothNotificationJLWorkoutEnd"
+
+
+
+//健康数据广播
+#define BluetoothNotificationHealthDataChange @"BluetoothNotificationHealthDataChange"
+//久坐提醒广播
+#define BluetoothNotificationSedentaryChange @"BluetoothNotificationSedentaryChange"
+//喝水提醒广播
+#define BluetoothNotificationDrinkingChange @"BluetoothNotificationDrinkingChange"
+//提醒模式广播
+#define BluetoothNotificationReminderModeChange @"BluetoothNotificationReminderModeChange"
+//闹钟提醒广播化
+#define BluetoothNotificationAlarmChange @"BluetoothNotificationAlarmChange"
+//祈祷闹钟提醒广播化
+#define BluetoothNotificationPrayAlarmChange @"BluetoothNotificationPrayAlarmChange"
+//抬腕亮屏广播
+#define BluetoothNotificationGestureChange @"BluetoothNotificationGestureChange"
+//亮屏时长广播
+#define BluetoothNotificationBrightTimeChange @"BluetoothNotificationBrightTimeChange"
+//心率监测广播
+#define BluetoothNotificationHeartRateModeChange @"BluetoothNotificationHeartRateModeChange"
+//勿扰模式广播
+#define BluetoothNotificationDisturbModeChange @"BluetoothNotificationDisturbModeChange"
+
+//运动数据变化
+#define BluetoothNotificationSportDataChange @"BluetoothNotificationSportDataChange"
+//数据同步完成
+#define BluetoothNotificationDataSyncingCompleted @"BluetoothNotificationDataSyncingCompleted"
+//重新连接已绑定设备
+#define BluetoothNotificationConnectHistoricalDevice @"BluetoothNotificationConnectHistoricalDevice"
+
+//数据同步
+#define BluetoothNotificationDataSyncing @"BluetoothNotificationDataSyncing"
+
+//距离单位变化
+#define AppNotificationDistanceUnitChange @"AppNotificationDistanceUnitChange"
+//温度单位变化
+#define AppNotificationTempUnitChange @"AppNotificationTempUnitChange"
+//游客绑定新用户
+#define AppNotificationVisitorChange @"AppNotificationVisitorChange"
+//用户信息变化
+#define AppNotificationUserInfoChange @"AppNotificationUserInfoChange"
+//用户信息变化
+#define AppNotificationStepGoalChange @"AppNotificationStepGoalChange"
+
+//退出登录通知
+#define AppNotificationUserSignout @"AppNotificationUserSignout"
+//用户登录通知
+#define AppNotificationUserSignin @"AppNotificationUserSignin"
+
+#endif /* PrefixHeader_pch */

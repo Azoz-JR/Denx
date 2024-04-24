@@ -1,0 +1,6 @@
+framework module Pods_MuslimFit {
+  umbrella header "Pods-MuslimFit-umbrella.h"
+
+  export *
+  module * { export * }
+}
