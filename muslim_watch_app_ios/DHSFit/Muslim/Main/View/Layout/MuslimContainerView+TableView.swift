@@ -66,17 +66,26 @@ extension MuslimContainerView: UITableViewDelegate, UITableViewDataSource {
                             sd.window.overrideUserInterfaceStyle = ThemeService.shared.theme.userInterfaceStyle
             //                self.sd = window
                             
-            //                let navigation = UINavigationController()
+//                            let navigation = UINavigationController()
+//                            
+//                            let launchBuilder = LaunchBuilder(container: Container.shared)
+//                            let launchStartup = launchBuilder.launchStartup()
+//                            launchStartup.launch(from: sd.window)
                             
-                            let launchBuilder = LaunchBuilder(container: Container.shared)
+                            
+                            let launchBuilder = QuranLaunchBuilder(container: Container.shared)
                             let launchStartup = launchBuilder.launchStartup()
-                            launchStartup.launch(from: sd.window)
                             
-            //                navigation.viewControllers = [launchStartup]
+                            let vc = launchStartup.launch()
+                            vc.navigationController?.navigationBar.isHidden = true
+                            vc.hidesBottomBarWhenPushed = true
+                            view.navigationController?.pushViewController(vc, animated: true)
+                            
+//                            navigation.viewControllers = [launchStartup]
                             
                             
 
-                            self.launchStartup = launchStartup
+//                            self.launchStartup = launchStartup
                         
             //            let window = UIWindow(windowScene: windowScene)
             //            window.overrideUserInterfaceStyle = ThemeService.shared.theme.userInterfaceStyle

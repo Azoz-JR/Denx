@@ -116,6 +116,19 @@
 		97513F062BD0980700EFA188 /* words.db in Resources */ = {isa = PBXBuildFile; fileRef = 97513F022BD0980700EFA188 /* words.db */; };
 		97513F072BD0980700EFA188 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97513F032BD0980700EFA188 /* Container.swift */; };
 		9751441B2BD09AF400EFA188 /* hafs_1405 in Resources */ = {isa = PBXBuildFile; fileRef = 9751441A2BD09AF300EFA188 /* hafs_1405 */; };
+		9766FB472BE03FC800296EA2 /* QuranLaunchStartup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9766FB462BE03FC800296EA2 /* QuranLaunchStartup.swift */; };
+		9766FB492BE0401B00296EA2 /* QuranBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9766FB482BE0401B00296EA2 /* QuranBuilder.swift */; };
+		9766FB4F2BE04D3F00296EA2 /* QuranAppInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9766FB4E2BE04D3F00296EA2 /* QuranAppInteractor.swift */; };
+		9766FB512BE04DA600296EA2 /* QuranAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9766FB502BE04DA600296EA2 /* QuranAppViewController.swift */; };
+		9766FB532BE04EA000296EA2 /* HomeTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9766FB522BE04EA000296EA2 /* HomeTab.swift */; };
+		9766FB552BE04F2900296EA2 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9766FB542BE04F2900296EA2 /* TabViewController.swift */; };
+		9766FB572BE04F6200296EA2 /* TabInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9766FB562BE04F6200296EA2 /* TabInteractor.swift */; };
+		9766FB592BE04F9000296EA2 /* TabBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9766FB582BE04F9000296EA2 /* TabBuilder.swift */; };
+		9766FB5B2BE0501800296EA2 /* QuranLaunchBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9766FB5A2BE0501800296EA2 /* QuranLaunchBuilder.swift */; };
+		9766FB5D2BE050E200296EA2 /* NotesTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9766FB5C2BE050E200296EA2 /* NotesTab.swift */; };
+		9766FB5F2BE0511C00296EA2 /* QuranSearchTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9766FB5E2BE0511C00296EA2 /* QuranSearchTab.swift */; };
+		9766FB612BE0515700296EA2 /* QuranSettingsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9766FB602BE0515700296EA2 /* QuranSettingsTab.swift */; };
+		9766FB632BE0518B00296EA2 /* QuranBookmarksTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9766FB622BE0518B00296EA2 /* QuranBookmarksTab.swift */; };
 		9767C0012BD00B5100171CAA /* AppStructureFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 9767C0002BD00B5100171CAA /* AppStructureFeature */; };
 		AB01D802284CD826001F80CC /* ConfigureModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB01D801284CD826001F80CC /* ConfigureModel.m */; };
 		AB02CF3729FD0DCB00283166 /* DevcieModelInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AB02CF3629FD0DCB00283166 /* DevcieModelInfo.m */; };
@@ -663,6 +676,19 @@
 		97513F022BD0980700EFA188 /* words.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = words.db; sourceTree = "<group>"; };
 		97513F032BD0980700EFA188 /* Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
 		9751441A2BD09AF300EFA188 /* hafs_1405 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = hafs_1405; sourceTree = "<group>"; };
+		9766FB462BE03FC800296EA2 /* QuranLaunchStartup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranLaunchStartup.swift; sourceTree = "<group>"; };
+		9766FB482BE0401B00296EA2 /* QuranBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranBuilder.swift; sourceTree = "<group>"; };
+		9766FB4E2BE04D3F00296EA2 /* QuranAppInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranAppInteractor.swift; sourceTree = "<group>"; };
+		9766FB502BE04DA600296EA2 /* QuranAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranAppViewController.swift; sourceTree = "<group>"; };
+		9766FB522BE04EA000296EA2 /* HomeTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTab.swift; sourceTree = "<group>"; };
+		9766FB542BE04F2900296EA2 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		9766FB562BE04F6200296EA2 /* TabInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabInteractor.swift; sourceTree = "<group>"; };
+		9766FB582BE04F9000296EA2 /* TabBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBuilder.swift; sourceTree = "<group>"; };
+		9766FB5A2BE0501800296EA2 /* QuranLaunchBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranLaunchBuilder.swift; sourceTree = "<group>"; };
+		9766FB5C2BE050E200296EA2 /* NotesTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTab.swift; sourceTree = "<group>"; };
+		9766FB5E2BE0511C00296EA2 /* QuranSearchTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranSearchTab.swift; sourceTree = "<group>"; };
+		9766FB602BE0515700296EA2 /* QuranSettingsTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranSettingsTab.swift; sourceTree = "<group>"; };
+		9766FB622BE0518B00296EA2 /* QuranBookmarksTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranBookmarksTab.swift; sourceTree = "<group>"; };
 		9A8D8209CE97B8BF91228173 /* Pods-DHSFit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHSFit.debug.xcconfig"; path = "Target Support Files/Pods-DHSFit/Pods-DHSFit.debug.xcconfig"; sourceTree = "<group>"; };
 		A75313752118BA1458D580B9 /* Pods-MuslimFit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuslimFit.debug.xcconfig"; path = "Target Support Files/Pods-MuslimFit/Pods-MuslimFit.debug.xcconfig"; sourceTree = "<group>"; };
 		AB01D800284CD826001F80CC /* ConfigureModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfigureModel.h; sourceTree = "<group>"; };
@@ -1671,6 +1697,58 @@
 				9751441A2BD09AF300EFA188 /* hafs_1405 */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		9766FB452BE03FAE00296EA2 /* Quran */ = {
+			isa = PBXGroup;
+			children = (
+				9766FB4D2BE04C3B00296EA2 /* Tabs */,
+				9766FB4C2BE04C3500296EA2 /* Launch */,
+				9766FB4B2BE04C2F00296EA2 /* Common */,
+				9766FB4A2BE04C2A00296EA2 /* App */,
+			);
+			path = Quran;
+			sourceTree = "<group>";
+		};
+		9766FB4A2BE04C2A00296EA2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9766FB482BE0401B00296EA2 /* QuranBuilder.swift */,
+				9766FB4E2BE04D3F00296EA2 /* QuranAppInteractor.swift */,
+				9766FB502BE04DA600296EA2 /* QuranAppViewController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9766FB4B2BE04C2F00296EA2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9766FB542BE04F2900296EA2 /* TabViewController.swift */,
+				9766FB562BE04F6200296EA2 /* TabInteractor.swift */,
+				9766FB582BE04F9000296EA2 /* TabBuilder.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		9766FB4C2BE04C3500296EA2 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				9766FB462BE03FC800296EA2 /* QuranLaunchStartup.swift */,
+				9766FB5A2BE0501800296EA2 /* QuranLaunchBuilder.swift */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		9766FB4D2BE04C3B00296EA2 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				9766FB522BE04EA000296EA2 /* HomeTab.swift */,
+				9766FB5C2BE050E200296EA2 /* NotesTab.swift */,
+				9766FB5E2BE0511C00296EA2 /* QuranSearchTab.swift */,
+				9766FB602BE0515700296EA2 /* QuranSettingsTab.swift */,
+				9766FB622BE0518B00296EA2 /* QuranBookmarksTab.swift */,
+			);
+			path = Tabs;
 			sourceTree = "<group>";
 		};
 		AB01D7FC284CD7ED001F80CC /* GlobalModels */ = {
@@ -3135,6 +3213,7 @@
 		D527C7392A5EAD29003FBA3B /* Muslim */ = {
 			isa = PBXGroup;
 			children = (
+				9766FB452BE03FAE00296EA2 /* Quran */,
 				D527C7552A5EDFB5003FBA3B /* Main */,
 				D5A958DE2A61C52E0041B113 /* HesnElmoslem */,
 				D5A958F62A6428560041B113 /* HesnElmoslemDetails */,
@@ -3947,12 +4026,14 @@
 				AB73851228E5C6EB00DF4B16 /* RunningManager.m in Sources */,
 				AB1EF1C428D31C7A008FDBB0 /* HomePageHeartRateCell.m in Sources */,
 				AB2C3FD72B4545C40083C496 /* DHDrinkingSetModel.m in Sources */,
+				9766FB552BE04F2900296EA2 /* TabViewController.swift in Sources */,
 				ABEB6F12284DBC1D00F16BD7 /* FeedbackViewController.m in Sources */,
 				ABD787C228476FDE005B8420 /* MWHtmlViewController.m in Sources */,
 				AB5E867B284850E70017CA8C /* AccountBindViewController.m in Sources */,
 				ABD7877B28476601005B8420 /* BrightTimeSetModel.m in Sources */,
 				AB2C3FFE2B4653CC0083C496 /* HistoryDataJLView.m in Sources */,
 				ABCD454F28586C0D00250D1B /* FSCalendarWeekdayView.m in Sources */,
+				9766FB4F2BE04D3F00296EA2 /* QuranAppInteractor.swift in Sources */,
 				AB8ACAD728600DD00058C8C4 /* PasswordResetViewController.m in Sources */,
 				AB2C3FBC2B4545C40083C496 /* JLSendModel.m in Sources */,
 				ABD78784284766E0005B8420 /* WeatherSetModel.m in Sources */,
@@ -3988,9 +4069,11 @@
 				AB8205882850565E00C302F1 /* HomeHeaderView.m in Sources */,
 				AB5145EB285C8EB600F0B2C6 /* DeviceBindCell.m in Sources */,
 				AB5CE25B2852F1DF008B9054 /* DetailStepWeekCell.m in Sources */,
+				9766FB5F2BE0511C00296EA2 /* QuranSearchTab.swift in Sources */,
 				D527C75C2A5EE70B003FBA3B /* PrayersContainerView.swift in Sources */,
 				ABFCB6452B356D1200301BE6 /* MuslimFit.xcdatamodeld in Sources */,
 				ABEB6F5B284E31CD00F16BD7 /* DailySportModel.m in Sources */,
+				9766FB572BE04F6200296EA2 /* TabInteractor.swift in Sources */,
 				ABEB6F38284E088200F16BD7 /* SportViewController.m in Sources */,
 				AB5145E8285C86A600F0B2C6 /* DeviceBatteryView.m in Sources */,
 				AB8ACAFF286057090058C8C4 /* OnceLocationManager.m in Sources */,
@@ -4005,9 +4088,11 @@
 				ABEB6F17284DD2CA00F16BD7 /* ScanViewController.m in Sources */,
 				AB5E868A284852610017CA8C /* SignupViewController.m in Sources */,
 				AB2C3FCF2B4545C40083C496 /* DHFileSyncingModel.m in Sources */,
+				9766FB472BE03FC800296EA2 /* QuranLaunchStartup.swift in Sources */,
 				ABEB6EF9284DBB2C00F16BD7 /* ContactEditViewController.m in Sources */,
 				AB041F0528B8CB6500C032EB /* BaseLongPressView.m in Sources */,
 				ABE9901B284F3598007EAD28 /* RunningGPSView.m in Sources */,
+				9766FB592BE04F9000296EA2 /* TabBuilder.swift in Sources */,
 				D527C74A2A5EB20F003FBA3B /* MuslimTableViewCell.swift in Sources */,
 				ABC61D79284C449300BAFF97 /* AncsSetModel.m in Sources */,
 				ABEB6F3E284E095800F16BD7 /* SportMainView.m in Sources */,
@@ -4025,6 +4110,7 @@
 				8A51DCDB2A1B748D00540A58 /* UICompassController.m in Sources */,
 				AB8ACB1128605CA10058C8C4 /* MkMapAppleNewView.m in Sources */,
 				ABC61D88284CB2FA00BAFF97 /* YYImageClipViewController.m in Sources */,
+				9766FB612BE0515700296EA2 /* QuranSettingsTab.swift in Sources */,
 				ABC7B11128703343002385A9 /* BaseTimeModel.m in Sources */,
 				ABEB6EFC284DBB2C00F16BD7 /* AlarmEditViewController.m in Sources */,
 				AB82059728508D4500C302F1 /* SleepReportViewController.m in Sources */,
@@ -4095,6 +4181,7 @@
 				AB2C3FF22B4546D80083C496 /* DHPrayAlarmSetModel.m in Sources */,
 				ABC3CBA328C206F500530C22 /* VisitorModel.m in Sources */,
 				ABCD454B28586C0D00250D1B /* FSCalendarCell.m in Sources */,
+				9766FB532BE04EA000296EA2 /* HomeTab.swift in Sources */,
 				AB925D13285D8BCA00711680 /* LanguageManager.m in Sources */,
 				AB5145E5285C326500F0B2C6 /* DialMarketSetModel.m in Sources */,
 				AB2C3FC52B4545C40083C496 /* DHHealthDataModel.m in Sources */,
@@ -4106,6 +4193,7 @@
 				AB4A80FF2845AC9F00682379 /* RootTabBarController.m in Sources */,
 				AB09C1E228A5FA8100E86C8C /* HomeBreathProgressView.m in Sources */,
 				AB02CF6529FD4E2700283166 /* TZLocationManager.m in Sources */,
+				9766FB632BE0518B00296EA2 /* QuranBookmarksTab.swift in Sources */,
 				AB5F9BF428485F4A009F548D /* LaunchAlertView.m in Sources */,
 				AB2C3FD52B4545C40083C496 /* DHDeviceLogModel.m in Sources */,
 				ABB5103C28A38C85001E607A /* SportGoalSetModel.m in Sources */,
@@ -4175,6 +4263,7 @@
 				ABA6DB0528F81A130020FB5A /* DHBluetoothManager.m in Sources */,
 				ABD78769284761E0005B8420 /* AlarmSetModel.m in Sources */,
 				AB5CE48B28549F8C008B9054 /* DailyBoModel.m in Sources */,
+				9766FB5B2BE0501800296EA2 /* QuranLaunchBuilder.swift in Sources */,
 				AB2C3FE32B4545C40083C496 /* DHDialInfoModel.m in Sources */,
 				97513F072BD0980700EFA188 /* Container.swift in Sources */,
 				ABD787C128476FDE005B8420 /* MWBaseController.m in Sources */,
@@ -4201,6 +4290,8 @@
 				AB8ACB1228605CA10058C8C4 /* CustomOverlay.m in Sources */,
 				ABEB6EF3284DBB2C00F16BD7 /* BrightTimeSetViewController.m in Sources */,
 				AB926E1628795A6200D21113 /* DetailSleepDayCell.m in Sources */,
+				9766FB5D2BE050E200296EA2 /* NotesTab.swift in Sources */,
+				9766FB492BE0401B00296EA2 /* QuranBuilder.swift in Sources */,
 				AB925D10285D776600711680 /* DialInfoSetModel.m in Sources */,
 				ABCD454E28586C0D00250D1B /* FSCalendarCollectionViewLayout.m in Sources */,
 				AB2C3FE42B4545C40083C496 /* DHBatteryInfoModel.m in Sources */,
@@ -4235,6 +4326,7 @@
 				AB925D16285D8BDB00711680 /* LocationManager.m in Sources */,
 				ABEB6F10284DBC1D00F16BD7 /* UserInfoSetViewController.m in Sources */,
 				ABEB6F41284E2D8900F16BD7 /* HistoryViewController.m in Sources */,
+				9766FB512BE04DA600296EA2 /* QuranAppViewController.swift in Sources */,
 				ABEB6EF8284DBB2C00F16BD7 /* ContactAddViewController.m in Sources */,
 				AB8205822850480700C302F1 /* DateSelectedView.m in Sources */,
 				AB2C3FF82B464F310083C496 /* AncsJLSetViewController.m in Sources */,
@@ -4516,7 +4608,7 @@
 				CODE_SIGN_ENTITLEMENTS = DHSFit/MuslimFit.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 11;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 6Y4GV5Z3R7;
 				ENABLE_BITCODE = NO;
@@ -4589,7 +4681,7 @@
 				CODE_SIGN_ENTITLEMENTS = DHSFit/MuslimFit.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 11;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 6Y4GV5Z3R7;
 				ENABLE_BITCODE = NO;
